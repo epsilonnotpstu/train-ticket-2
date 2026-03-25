@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title data-i18n="title"></title>
+  <style type="text/css">
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      font-size: 16px;
+      max-width: 900px;
+      margin: auto;
+      padding-bottom: 25px;
+    }
+    kbd {
+      background-color: #eee;
+      border-radius: 3px;
+      border: 1px solid #b4b4b4;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+      color: #333;
+      display: inline-block;
+      font-family: monospace;
+      font-size: .85em;
+      font-weight: 700;
+      line-height: 1;
+      padding: 2px 4px;
+      white-space: nowrap;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1rem;
+      border: 1px solid #dee2e6;
+    }
+    th, td {
+      padding: 4px 8px;
+      border: 1px solid #dee2e6;
+    }
+    thead th {
+      border-bottom: 2px solid #dee2e6;
+    }
+    .key-width {
+      width: 35%;
+    }
+    .desc-width {
+      width: 65%;
+    }
+    .d-none {
+      display: none;
+    }
+    .mt-2 {
+      margin-top: 8px;
+    }
+    .mb-2 {
+      margin-bottom: 8px;
+    }
+    .text-muted {
+      color: #6c757d!important;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background-color: #121212; color: #FFFFFF; }
+      table {
+        border: 0;
+      }
+      th, td {
+        border: 1px solid #454d55;
+      }
+      thead th {
+        border-bottom: 2px solid #454d55;
+      }
+    }
+  </style>
+</head>
+<body><div class="d-none">
+  <h2 data-i18n="headKeyboard"></h2>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col" class="key-width" data-i18n="thShortcut"></th>
+        <th scope="col" class="desc-width" data-i18n="thFunction"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row"><kbd>Ctrl/Cmd</kbd> + <kbd>O</kbd></th>
+        <td data-i18n="openFiles"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Space</kbd></th>
+        <td rowspan="2" data-i18n="playPause"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>K</kbd></th>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>←</kbd></th>
+        <td rowspan="2" data-i18n="shortBackwardJump"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>J</kbd></th>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>→</kbd></th>
+        <td rowspan="2" data-i18n="shortForwardJump"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>L</kbd></th>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Shift</kbd> + <kbd>←</kbd></th>
+        <td rowspan="2" data-i18n="longBackwardJump"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Shift</kbd> + <kbd>J</kbd></th>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Shift</kbd> + <kbd>→</kbd></th>
+        <td rowspan="2" data-i18n="longForwardJump"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Shift</kbd> + <kbd>L</kbd></th>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>↑</kbd></th>
+        <td data-i18n="volumeUp"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>↓</kbd></th>
+        <td data-i18n="volumeDown"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>M</kbd></th>
+        <td data-i18n="muteUnmute"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>P</kbd></th>
+        <td rowspan="2" data-i18n="previousVideo"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Ctrl/Cmd</kbd> + <kbd>←</kbd></th>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>N</kbd></th>
+        <td rowspan="2" data-i18n="nextVideo"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Ctrl/Cmd</kbd> + <kbd>→</kbd></th>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>,</kbd></th>
+        <td data-i18n="previousFrame"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>.</kbd></th>
+        <td data-i18n="nextFrame"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Shift</kbd> + <kbd>S</kbd></th>
+        <td data-i18n="screenshot"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Esc</kbd></th>
+        <td data-i18n="exitFullscreen"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>F</kbd></th>
+        <td data-i18n="toggleFullscreen"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>W</kbd></th>
+        <td data-i18n="maxWindow"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Shift</kbd> + <kbd>P</kbd></th>
+        <td data-i18n="pip"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>+</kbd></th>
+        <td data-i18n="speedUp"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>-</kbd></th>
+        <td data-i18n="speedDown"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>0</kbd></th>
+        <td data-i18n="speedReset"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Shift</kbd> + <kbd>+</kbd></th>
+        <td data-i18n="windowSizeUp"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Shift</kbd> + <kbd>-</kbd></th>
+        <td data-i18n="windowSizeDown"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Shift</kbd> + <kbd>0</kbd></th>
+        <td data-i18n="windowSizeReset"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>G</kbd></th>
+        <td data-i18n="timeProgress"></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>H</kbd></th>
+        <td data-i18n="clock"></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="text-muted"><small data-i18n="note"></small></div>
+
+  <h2 data-i18n="headMouse"></h2>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col" class="key-width" data-i18n="thShortcut"></th>
+        <th scope="col" class="desc-width" data-i18n="thFunction"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row" data-i18n="singleClick"></th>
+        <td data-i18n="playPause"></td>
+      </tr>
+      <tr>
+        <th scope="row" data-i18n="doubleClick"></th>
+        <td data-i18n="toggleFullscreen"></td>
+      </tr>
+      <tr>
+        <th scope="row" data-i18n="dragFiles"></th>
+        <td data-i18n="openFiles"></td>
+      </tr>
+      <tr>
+        <th scope="row" data-i18n="dragEdge"></th>
+        <td data-i18n="adjustWindowSize"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script type="text/javascript" src="shortcuts.js"></script>
+</div></body>
+</html>

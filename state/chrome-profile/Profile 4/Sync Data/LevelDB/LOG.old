@@ -1,0 +1,5 @@
+2026/02/15-19:22:37.573 3363 Creating DB /home/afridi/.config/google-chrome/Profile 4/Sync Data/LevelDB since it was missing.
+2026/02/15-19:22:37.578 3363 Reusing MANIFEST /home/afridi/.config/google-chrome/Profile 4/Sync Data/LevelDB/MANIFEST-000001
+2026/02/15-19:29:56.684 334b Level-0 table #5: started
+2026/02/15-19:29:56.686 334b Level-0 table #5: 107991 bytes OK
+2026/02/15-19:29:56.687 334b Delete type=0 #3

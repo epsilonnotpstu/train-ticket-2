@@ -1,0 +1,12 @@
+2026/02/15-19:31:01.475 37e7 Reusing MANIFEST /home/afridi/.config/google-chrome/Profile 4/Sync Data/LevelDB/MANIFEST-000001
+2026/02/15-19:31:01.475 37e7 Recovering log #4
+2026/02/15-19:31:01.475 37e7 Reusing old log /home/afridi/.config/google-chrome/Profile 4/Sync Data/LevelDB/000004.log 
+2026/02/15-19:40:28.812 37e7 Level-0 table #8: started
+2026/02/15-19:40:28.814 37e7 Level-0 table #8: 88733 bytes OK
+2026/02/15-19:40:28.815 37e7 Delete type=0 #4
+2026/02/15-19:52:57.625 37e7 Level-0 table #10: started
+2026/02/15-19:52:57.628 37e7 Level-0 table #10: 87762 bytes OK
+2026/02/15-19:52:57.629 37e7 Delete type=0 #7
+2026/02/15-21:08:35.493 37e5 Level-0 table #12: started
+2026/02/15-21:08:35.498 37e5 Level-0 table #12: 85077 bytes OK
+2026/02/15-21:08:35.499 37e5 Delete type=0 #9

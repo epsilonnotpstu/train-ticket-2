@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8' />
+  <title>Warning</title>
+  <script
+    type='text/javascript'
+    src='../no-video-popup.bundle.js'
+  ></script>
+  <style>
+    .pop-over {
+      width: 150px;
+      padding: 5px;
+      background: #ffffff;
+      color: #333333;
+      border-radius: 5px;
+    }
+
+    .button-wrapper {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    #cancel {
+      padding: 5px 10px;
+      border: 0;
+      border-radius: 5px;
+      background-color: #eeeeee;
+      color: #333333;
+      transition: background-color 0.2s;
+      cursor: pointer;
+    }
+
+    #cancel:hover {
+      background-color: #dddddd;
+    }
+  </style>
+</head>
+<body class='pop-over'>
+<div>
+  <div class='title-copy-9'>
+    There is no video you can annotate in this page.
+  </div>
+  <div class='button-wrapper'>
+    <button id='cancel'>Close</button>
+  </div>
+</div>
+</body>
+</html>

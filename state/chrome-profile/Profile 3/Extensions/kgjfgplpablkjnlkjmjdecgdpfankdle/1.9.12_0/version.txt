@@ -1,0 +1,6 @@
+Release Version: 1.9.12
+Build Version: 1.9.12.300
+Build Time: 2026-02-27 03:16:16Z
+Branch: release
+Commit SHA:
+web/extension: c6340547c49af1141b7a093414ddc863b09408c3

@@ -1,0 +1,7 @@
+2025/11/13-16:58:35.548 897 Creating DB /home/afridi/.config/google-chrome/Default/WebStorage/107/IndexedDB/indexeddb.leveldb since it was missing.
+2025/11/13-16:58:35.550 897 Reusing MANIFEST /home/afridi/.config/google-chrome/Default/WebStorage/107/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/11/13-16:58:35.566 897 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/13-17:01:26.982 888 Level-0 table #5: started
+2025/11/13-17:01:26.983 888 Level-0 table #5: 14273 bytes OK
+2025/11/13-17:01:26.984 888 Delete type=0 #3
+2025/11/13-17:01:26.984 888 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

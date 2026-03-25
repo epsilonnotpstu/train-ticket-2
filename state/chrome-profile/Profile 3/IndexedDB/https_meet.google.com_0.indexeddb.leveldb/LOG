@@ -1,0 +1,7 @@
+2026/02/15-21:32:47.533 37e5 Reusing MANIFEST /home/afridi/.config/google-chrome/Profile 3/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/15-21:32:47.533 37e5 Recovering log #3
+2026/02/15-21:32:47.534 37e5 Reusing old log /home/afridi/.config/google-chrome/Profile 3/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000003.log 
+2026/02/15-21:34:15.144 37e7 Level-0 table #5: started
+2026/02/15-21:34:15.145 37e7 Level-0 table #5: 8984 bytes OK
+2026/02/15-21:34:15.147 37e7 Delete type=0 #3
+2026/02/15-21:34:15.147 37e7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

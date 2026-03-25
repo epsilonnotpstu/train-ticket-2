@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.7" height="17.7" viewBox="0 0 19.7 17.7">
+  <g id="Camera" transform="translate(0.85 0.85)">
+    <path id="Path_4460" data-name="Path 4460" d="M80,122H66a2,2,0,0,1-2-2v-9a2,2,0,0,1,2-2h2.5l.772-2.316A1,1,0,0,1,70.22,106h5.559a1,1,0,0,1,.948.684L77.5,109H80a2,2,0,0,1,2,2v9A2,2,0,0,1,80,122Z" transform="translate(-64 -106)" fill="none" stroke="#222" stroke-linejoin="round" stroke-width="1.7"/>
+    <ellipse id="Ellipse_34" data-name="Ellipse 34" cx="4.033" cy="4.033" rx="4.033" ry="4.033" transform="translate(5.085 5.006)" fill="none" stroke="#222" stroke-miterlimit="10" stroke-width="1.7"/>
+  </g>
+</svg>

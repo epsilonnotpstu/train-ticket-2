@@ -1,0 +1,43 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "src/assets/128.png",
+         "16": "src/assets/16.png",
+         "48": "src/assets/48.png"
+      },
+      "default_popup": "src/pages/popup/index.html",
+      "default_title": "default_title"
+   },
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "css": [ "/content.css", "assets/index-D1Kw5EMf.css" ],
+      "js": [ "assets/youtube.js-loader-B6zR-yJI.js" ],
+      "matches": [ "https://www.youtube.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "src/assets/128.png",
+      "16": "src/assets/16.png",
+      "48": "src/assets/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqt2vSQQ5VVmyx9bpHU6MhwgKfNtik6UxhLpJkxHAW1xuH6vba6OMEcxAq4BN1vBpwMHz4WRZo3+BcQ+9yQ+e4Z8T7na3xVrV4Kzb89bO+zkmsYrgBRf8hzLYJwLn6rWeBlQV2g1tQ/dsyUBHo2p+16xpTUydXfAXq1y9aFMvDSiRQpVUELiBcBu12Zl/g16oh404AwKeXVb0KxqLELJN6UymLae2Qnc9QtZ9CZSx3yurZY3DXD/LNLc8PJcZXs12czMAaK0S5slmVbzmyv3ZEUl2IvYK0qpBPxzr966j3L+jHfDu3QMCnVJ3fI3Q5dfdH8TELJZQ1bx3380a9Xn5EwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "permissions": [ "storage", "identity", "identity.email" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.5.8",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "src/assets/loding.gif", "src/assets/128.png", "src/assets/youtube_demochr.png" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "https://www.youtube.com/*" ],
+      "resources": [ "src/lib/injetct_get_subtitle.js", "assets/index-NSNjOLuZ.js", "assets/runtime-dom.esm-bundler-DpnchRMq.js", "assets/content-DP9woBo1.js" ],
+      "use_dynamic_url": false
+   } ]
+}

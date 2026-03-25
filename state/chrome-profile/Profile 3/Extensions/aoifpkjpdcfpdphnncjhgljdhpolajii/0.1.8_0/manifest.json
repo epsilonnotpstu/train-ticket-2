@@ -1,0 +1,43 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png",
+         "48": "data/icons/48.png",
+         "64": "data/icons/64.png"
+      },
+      "default_title": "Page Screenshot"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "capture": {
+         "description": "Take screenshot",
+         "suggested_key": {
+            "default": "Alt+Shift+D"
+         }
+      }
+   },
+   "description": "Take a screenshot from the entire website with just one click!",
+   "homepage_url": "https://mybrowseraddon.com/page-screenshot.html",
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArrqOUvP8BlM45O8JV+zj1Ljt4YuKYh0R2zzu8LLfle1Eu5nkfHWrKuoy7/seD+Dz0bsLfM8iDNVcfQ91oVrdlL8Dia9rOkybmaqV4qcDaPTGR4SLuQhTq8kmODoS2JAuw6Kte5+BMIgI15FFG5CrBASn3fHW2U+49MCACr6Zq+BXgWJ+OUhj6+5KpBhXQkc4/F+VAq2ovc/S9cjXfaaYwheZ+oecRjMR8Q8rqS/Zn+VxX1BnFj3Ny7fsCxwE8FCzIS+rl7ZR6wxM+rN2cHp4E5ncC35EInop5iwBukkIcE14HekKTUN5Ex1qTHvF9u3QY7VdTTpebd/stVSvZZE/vwIDAQAB",
+   "manifest_version": 3,
+   "name": "Page Screenshot",
+   "offline_enabled": true,
+   "optional_host_permissions": [ "\u003Call_urls>" ],
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "data/options/options.html"
+   },
+   "permissions": [ "storage", "activeTab", "scripting" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.8"
+}

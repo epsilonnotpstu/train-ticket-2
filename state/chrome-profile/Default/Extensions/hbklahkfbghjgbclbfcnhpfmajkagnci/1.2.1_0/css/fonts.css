@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'GothamBlack';
+  src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/Gotham-Black.woff') format('woff');
+}
+@font-face {
+  font-family: 'Roboto-regular';
+  src:
+    url('chrome-extension://__MSG_@@extension_id__/assets/fonts/roboto-v27-latin-regular.woff') format('woff'),
+    url('chrome-extension://__MSG_@@extension_id__/assets/fonts/roboto-v27-latin-regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Roboto-bold';
+  src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/roboto-v27-latin-500.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto-medium';
+  src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/Roboto-Medium.ttf') format('ttf');
+}

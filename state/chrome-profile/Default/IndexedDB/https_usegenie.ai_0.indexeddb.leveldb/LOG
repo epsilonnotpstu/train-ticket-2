@@ -1,0 +1,6 @@
+2025/06/20-11:31:44.975 613 Creating DB /home/afridi/.config/google-chrome/Default/IndexedDB/https_usegenie.ai_0.indexeddb.leveldb since it was missing.
+2025/06/20-11:31:44.977 613 Reusing MANIFEST /home/afridi/.config/google-chrome/Default/IndexedDB/https_usegenie.ai_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/20-11:31:45.026 626 Level-0 table #5: started
+2025/06/20-11:31:45.028 626 Level-0 table #5: 1761 bytes OK
+2025/06/20-11:31:45.035 626 Delete type=0 #3
+2025/06/20-11:31:45.035 624 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

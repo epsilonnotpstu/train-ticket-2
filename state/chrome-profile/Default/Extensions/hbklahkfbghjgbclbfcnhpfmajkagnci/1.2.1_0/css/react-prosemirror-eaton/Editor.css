@@ -1,0 +1,78 @@
+.ProseMirror {
+  font-family: 'Roboto-regular' !important;
+  font-size: 12px;
+  padding: 5px;
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 290px;
+}
+
+.ProseMirror:focus {
+  outline: none;
+}
+
+.ProseMirror hr {
+  border: none;
+  margin: 1em 0;
+}
+
+.ProseMirror hr:after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: silver;
+  line-height: 2px;
+}
+
+.ProseMirror ul,
+.ProseMirror ol {
+  padding-left: 15px;
+}
+
+.ProseMirror blockquote {
+  padding-left: 1em;
+  border-left: 3px solid #eee;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.ProseMirror img {
+  /*cursor: default;*/
+}
+
+.ProseMirror th,
+.ProseMirror td {
+  border: 1px solid #eee;
+  padding: 2px 5px;
+}
+
+.ProseMirror sup,
+.ProseMirror sub {
+  line-height: 0;
+}
+
+.ProseMirror p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 140%;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  letter-spacing: -0.28px;
+}
+
+.ProseMirror ul,
+.ProseMirror ol {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.ProseMirror code {
+  margin: 0 2px;
+  font-size: 14px;
+  color: black;
+  font-family: monospace;
+  background-color: #e3e6e8;
+}

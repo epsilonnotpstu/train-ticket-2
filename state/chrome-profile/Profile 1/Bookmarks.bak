@@ -1,0 +1,114 @@
+{
+   "checksum": "06f1ad9483340493e7c472299d5fa60c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13322134475603739",
+            "date_last_used": "13337250871165991",
+            "guid": "f398db57-b3f0-4ad1-8415-26cb0e38bd8c",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Getting started with Fedora :: Fedora Docs",
+            "type": "url",
+            "url": "https://docs.fedoraproject.org/en-US/quick-docs/getting-started-guide/"
+         }, {
+            "date_added": "13329464768560696",
+            "date_last_used": "0",
+            "guid": "615c5f77-d8c7-4349-9804-d023e2850219",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13329464768561127",
+            "date_last_used": "13337250870049350",
+            "guid": "3b61f383-0066-4782-b8bb-56e89a4392a9",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13329464768561334",
+            "date_last_used": "13337250870227685",
+            "guid": "ea0268da-0c0f-46bf-8ba1-b74cd49c0758",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Maps",
+            "type": "url",
+            "url": "https://maps.google.com/"
+         }, {
+            "date_added": "13329464783186837",
+            "date_last_used": "0",
+            "guid": "626b3e7e-4ed2-4f88-b2b3-5db3774a275e",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "News",
+            "type": "url",
+            "url": "https://news.google.com/"
+         }, {
+            "date_added": "13329464784484560",
+            "date_last_used": "13337250869797947",
+            "guid": "8e391f72-44c6-46af-a930-9b15085cbe89",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Translate",
+            "type": "url",
+            "url": "https://translate.google.com/"
+         } ],
+         "date_added": "13404653333249078",
+         "date_last_used": "0",
+         "date_modified": "13329464784484560",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13383542808465166",
+            "date_last_used": "0",
+            "guid": "16aa817e-9289-4e83-bd8c-594e42b3dbf2",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Telegram Web",
+            "type": "url",
+            "url": "https://web.telegram.org/k/"
+         } ],
+         "date_added": "13404653333249078",
+         "date_last_used": "0",
+         "date_modified": "13383542808465166",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13404653333249078",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CnAKUAiIgQISSiAAkgE2CjQKDmNocm9tZV9zeW5jX2JtEgU1MSFibRoSCQeqjTPkSQYAEQeqjTPkSQYAKULVkTPkSQYA6gEMCPb9hcwGEPikn4MCEgAqGDlnRXBXSGdKOGdCaS9rd3o4T1pOb3c9PUgDEsMBCAISvgEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SZlo6QURxdEFaeEEyc2tZdVB3TUZjU01nRFIrclB5QWdGd1ErU1Z5M0JldEJXcmpzWldiOHoxKzhOMnhQVGxPRFprOWd5cFh6b1JLek5FcWJiaWh1blpUQzd0M1M2UTBmN2l4dEE9PRgAIAAoADDp0avL8ZSQAzgAQABKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEuwBCAgS5wEKHGF6K2s3U1pYUThnN1ljZDNqWFBYTVVXWmEwQT0SZlo6QURxdEFaeHFFM2wrQ1c3Z0g1RTlLc0wwQW9SeDZDSC9tVS80NDFDQ1FYQlQ5V0E3K3grRnRmRzl1MmNHUlhBVEZ4YUIzMmFaWUdGM1Y0azdyZ09RU2k0UmhRSXNVNGY2ZVE9PRgAIAAoADCZpPDhpvKAAziA8vGKhTFAgPLxioUxShx5clV2YVhvaWcreWdYL3JSVWkvbzV0MEJ6SFE9Wh8iHds2eHg2YytCRm1ETjdiOTlveDdaOEtZWndKMWc9ZTj5OTMS6wEIBRLmAQocYldtS01wUEd3Q1I1Y2kzVHpxUGk3NUdYcmVRPRJmWjpBRHF0QVp4cUUzbCtDVzdnSDVFOUtzTDBBb1J4cGM3cTErcWxreldwT0gzMi9vclllcFM1QzhUbU05b040NFZ2eU1IZ3NuOXlRVjkzOUtsbFFHZVhLTEs1THJxZjFGRTBzZz09GAAgACgAMJSqydTJtYsDOJHv6MTOMkCR7+jEzjJKHDB1bE9VMVVFd1VJYWtPcTFEWTBkaFIvclQzUT1aHiIcSVFvZENxc1lycjFYcHNkY08wNWtyV21RVHVvPWXT34INEsMBCAMSvgEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFaejRRcjRveXBNNUdRcmNwcWdHTTF1SDVkckxIdW50U0NBV1c3a2RMRVUwS3RueGF6VnhLUkptNmR5OFAzZVprZE5jT285SmtOYzlKZ3ZRaXBSQk1yVTByK2pSS2c9PRgAIAAoADDp0avL8ZSQAzgAQABKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEuwBCAsS5wEKHDR4VnM3aDEzWWo2bStsZTNNSEVRM2tDY09mST0SZlo6QURxdEFaeHFFM2wrQ1c3Z0g1RTlLc0wwQW9SeDQyR1NVeWJSb1ZrMzBKNVBhdlU1blB6SEVUMlNaNk90SzZnbmNWdDNjd2JUa3orNHJWWG9lRXNVZXlKVUg5MmE2SFdsblE9PRgAIAAoADDWnOvfpvKAAziB8vGKhTFAgfLxioUxShxoeHlGT2lSdGROK3F2SGNmM2d1aFFnMXdIM009Wh8iHftVdkNWQW5QSThPdE13cExLZ2d4MVVZbHVNYTA9ZcXPkAESqwEIARKmAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRJOWjpBRHF0QVp3V0ZZS2UrKzVaY0FWbnJHRGc0WWVvb1hreGJrZStOTlphd3V2eWdwcEhlbVA0Q2RwN1NBVElpZnZXQ0tucmphMkNZeE1JGAAgACgAMOnRq8vxlJADOABAAEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAAS7AEIBxLnAQocVXNNbFdKekZHQno2bXFHZXcyL1B4SlF5YkZBPRJmWjpBRHF0QVp4cUUzbCtDVzdnSDVFOUtzTDBBb1J4NnFLMzlBWVJtbksrcmNlVEkvOWJkOW9vcHh6ZFdYalVqVkZ0N1JybFNVNmV1ZXc4bFJiYmc2RkJ0NUdSbW81RzE4b2R4QT09GAAgACgAMLK7xYf1lJADOIDy8YqFMUCA8vGKhTFKHHJ3Z2pGdHpsMG5abDNyZlFXWFZ1YXhyUWxWQT1aHyIdtlFGK0dPVWlqVmFQUi94ckl1Rm9SOFQ4RElLcz1lIjmYNhLsAQgJEucBChwwVWo5a1QvdmdQQkZieGRmTzRxQkd3UW05NTQ9EmZaOkFEcXRBWnhxRTNsK0NXN2dINUU5S3NMMEFvUnhNQXdhN1RuYTJqT1FhVzhiY1psaHZYZXZvZFdVOXBGeGpjZWx1TlVPbElic25hdG1PeU9HZFFoRmNkWDlaNGw1RTVyRVJ3PT0YACABKAEwtOjgjse8kgM4gfLxioUxQOi4n4/CM0ocVWV4Tzhab1BkamQwMFJXa0plWHY1emoxZitJPVofIh3tbkhxYllVTnZaUjEyMXAxOG5tcTJ0eEJYREdjPWX3XBVBEusBCAYS5gEKHE1pWlZJRHdlSDQyUDlPOUdUODVOTEdOQ1VQUT0SZlo6QURxdEFaeHFFM2wrQ1c3Z0g1RTlLc0wwQW9SeHZnTXJqYW5Qc3dYNHcvSVhzQ09BeU1jT3pKeFlsN2h4NzVsbXhUWERXdjhXRjFCL3N6ZUVKWnJXcmVYNitGdkRmaDRza0E9PRgAIAAoADCXlo/jpvKAAzjT1oXj6TBA09aF4+kwShxiMTdmc3N2KzB0UEtveDEyTlNYNEVTQlpvZjQ9Wh4iHGxUVzU4SWorWkRqanVIYTVQR3NPSllZVnFpRT1l2VGn8hLsAQgKEucBChxoTklqa2lnNDlTUmV4NmVaZVc2cG5UNUJOc2c9EmZaOkFEcXRBWnhxRTNsK0NXN2dINUU5S3NMMEFvUnhNekpQNnJiQlMvazI4TEQ1VUdvb2tyT1lBSVJOdnBxYlpoNEdDVHQrQXJuRnBlU1NZd3JVSllTcDd5TjVkU3l0SHVSWGVRPT0YACAAKAAwp47wnY7ZgAM4gfLxioUxQIHy8YqFMUoceHM2eWNHWmYvSy9WWTRMWHIzMG50cFJkWTJNPVofIh32ei85UXFoVEJzSzlYb0hKR2d2dFo5VlJWMUEwPWXPzq1qMAE4AA==",
+   "version": 1
+}

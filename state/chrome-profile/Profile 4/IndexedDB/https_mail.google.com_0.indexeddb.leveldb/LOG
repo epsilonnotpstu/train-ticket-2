@@ -1,0 +1,8 @@
+2026/02/15-21:13:58.516 37e7 Creating DB /home/afridi/.config/google-chrome/Profile 4/IndexedDB/https_mail.google.com_0.indexeddb.leveldb since it was missing.
+2026/02/15-21:13:58.523 37e7 Reusing MANIFEST /home/afridi/.config/google-chrome/Profile 4/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/15-21:34:07.907 37e5 Level-0 table #5: started
+2026/02/15-21:34:07.923 37e5 Level-0 table #5: 3166263 bytes OK
+2026/02/15-21:34:07.925 37e5 Delete type=0 #3
+2026/02/15-21:34:20.797 37e7 Level-0 table #7: started
+2026/02/15-21:34:20.813 37e7 Level-0 table #7: 3267154 bytes OK
+2026/02/15-21:34:20.814 37e7 Delete type=0 #4

@@ -1,0 +1,6 @@
+2026/03/25-20:20:19.517 5 Reusing MANIFEST /home/afridi/.config/google-chrome/Profile 3/Local Storage/leveldb/MANIFEST-000001
+2026/03/25-20:20:19.521 5 Recovering log #42
+2026/03/25-20:20:19.521 5 Reusing old log /home/afridi/.config/google-chrome/Profile 3/Local Storage/leveldb/000042.log 
+2026/03/25-20:32:07.085 5 Level-0 table #46: started
+2026/03/25-20:32:07.088 5 Level-0 table #46: 20760 bytes OK
+2026/03/25-20:32:07.089 5 Delete type=0 #42

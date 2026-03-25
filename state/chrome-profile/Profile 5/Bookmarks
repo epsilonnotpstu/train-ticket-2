@@ -1,0 +1,45 @@
+{
+   "checksum": "65bdabeaff7ae6bddbff7668b80b64c4",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13416553941006767",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13416553941006767",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13238737318001721",
+            "date_last_used": "0",
+            "guid": "99d6d709-4e5d-44d8-ab56-0a219982ce6a",
+            "id": "5",
+            "name": "Bangladesh Air Force || Home",
+            "type": "url",
+            "url": "https://joinairforce.baf.mil.bd/apply"
+         } ],
+         "date_added": "13416553941006767",
+         "date_last_used": "0",
+         "date_modified": "13238737318001721",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CuABCr8BCIiBAhK4ASAAkgGjAQqgAQoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJX9O3nbJLBgARX9O3nbJLBgAiNAlYYJ2dsksGABADGZjOWYdLaYC4IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAlYYJ2dsksGABADGZjOWYdLaYC4IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEpb5m4nbJLBgDqAQwI/pn/zAYQyOuqlQISACoYVUJMRkorbkc4QnJpb2pRd1FPK3NhQT09SAMSwwEIAxK+AQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRJmWjpBRHF0QVp3VWREbHhJQnpRU1N5REpwUGNUZGtWTnlNOS8zOHdXMGwzQWZtNGw4ZDBkMWUxVXJFT0pNMXNHbDNJa3ZqbmNRZkpLclRBWkZOTVlESmlmcmhCYnBCWXJQYlBUUT09GAAgACgAMKWw3/LzlJADOABAAEoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAASqwEIARKmAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRJOWjpBRHF0QVp3RjluYVR1VVBCTnljeFVOQ1gyTkRuOUN6VUIzcDQ4QndmclF4TG9QYmp3alhyTmZacWxZdGw1eTF5SmFlNU5rcEtRY0kxGAAgACgAMKWw3/LzlJADOABAAEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAASrQIIBRKoAgocbmxOdWhOd015SHFVb2dualkzYnBEMFc2WWM4PRKmAVo6QURxdEFaeGE1S0pxK0Fta3FMbHJZUHJxS1JRbXg2RVN0MnpkeXduK2NKT0xSWVRjMFhXK0JKUWZhTDg4QUNQZUtlTDRNM1NBeEtTUUNPb0FUWmY1Y1dDYVU4aWdWNFZIRDJLNjFzRDZQaXNIUG5FK2lxelRTd29kaUZLWDg5UStManBXNVFTZmNLNzdnQVhjN2ttZW4xbStJa2hyTVZ0YTJBPT0YACAAKAAwqbi2jJ/E/QI495CXjLMuQPeQl4yzLkocL1drVDNxRDc4N1czcXBYVW05NGFhVEk2aXFNPVofIh27Y0FlWTVqVkZ2cUNKbzNJM054M1Q5d3VlRjVjPWUAAAAAEsMBCAISvgEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SZlo6QURxdEFaeUIxUytGdndVdkFkNnRDc1hRMWQ1SXdjak9YTGZ3UmVFOTA0djgzL0JKQmcrWityYTE5VUc3L3pST3dQNS8wT0gzYk1MUzZwcmd2WWxBWWE2R1V5b3JPM2RpRFE9PRgAIAAoADClsN/y85SQAzgAQABKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAMAE4AA==",
+   "version": 1
+}

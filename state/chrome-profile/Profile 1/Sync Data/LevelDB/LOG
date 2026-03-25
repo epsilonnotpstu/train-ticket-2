@@ -1,0 +1,6 @@
+2026/03/18-12:09:09.816 8b4c Reusing MANIFEST /home/afridi/.config/google-chrome/Profile 1/Sync Data/LevelDB/MANIFEST-000001
+2026/03/18-12:09:09.817 8b4c Recovering log #4
+2026/03/18-12:09:09.821 8b4c Reusing old log /home/afridi/.config/google-chrome/Profile 1/Sync Data/LevelDB/000004.log 
+2026/03/18-12:09:31.847 8b4c Level-0 table #8: started
+2026/03/18-12:09:31.849 8b4c Level-0 table #8: 111982 bytes OK
+2026/03/18-12:09:31.850 8b4c Delete type=0 #4

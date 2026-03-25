@@ -1,0 +1,72 @@
+{
+   "action": {
+   },
+   "background": {
+      "service_worker": "worker.js"
+   },
+   "commands": {
+      "_execute_action": {
+      },
+      "next-track": {
+         "description": "Next Track"
+      },
+      "previous-track": {
+         "description": "Previous Track"
+      },
+      "toggle-play": {
+         "description": "Toggle Play/Pause"
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "file_handlers": [ {
+      "accept": {
+         "application/vnd.apple.mpegurl": [ ".m3u8" ],
+         "application/x-shockwave-flash": [ ".swf" ],
+         "audio/aac": [ ".aac" ],
+         "audio/flac": [ ".flac" ],
+         "audio/midi": [ ".mid" ],
+         "audio/mp4": [ ".m4a" ],
+         "audio/mpeg": [ ".mp3" ],
+         "audio/ogg": [ ".ogg" ],
+         "audio/pcm": [ ".pcm" ],
+         "audio/voc": [ ".voc" ],
+         "audio/wav": [ ".wav" ],
+         "audio/x-matroska": [ ".mka" ],
+         "audio/x-ms-wma": [ ".wma" ],
+         "video/3gpp": [ ".3gp" ],
+         "video/avi": [ ".avi" ],
+         "video/dvd": [ ".vob" ],
+         "video/mp4": [ ".mp4" ],
+         "video/mpeg": [ ".mpg" ],
+         "video/ogg": [ ".ogv" ],
+         "video/quicktime": [ ".mov" ],
+         "video/webm": [ ".webm" ],
+         "video/x-flv": [ ".flv" ],
+         "video/x-matroska": [ ".mkv" ],
+         "video/x-ms-wmv": [ ".wmv" ]
+      },
+      "action": "/file_handlers/index.html",
+      "launch_type": "single-client",
+      "name": "Open with MediaPlayer"
+   } ],
+   "homepage_url": "https://webextension.org/listing/the-media-player.html",
+   "icons": {
+      "128": "/data/icons/128.png",
+      "16": "/data/icons/16.png",
+      "256": "/data/icons/256.png",
+      "32": "/data/icons/32.png",
+      "48": "/data/icons/48.png",
+      "512": "/data/icons/512.png",
+      "64": "/data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjT3CuXKarNl8zkTa6dPdxx6TxTEEQRUGJo397N7qP/W3xIgg0Ig8VlNUMB2omsAhWSVKPGN+yecvGtIYQ+zGHOclpYcmcXgQjgYZBpvuQAao9FtvnTIf4dOksDut/LgWESamsBH//Q+pmqCZYDzG8DvsIxkw0m/7HDEpEJx+X+wDIazZdSGUUMMfirDF1m9chaNtJbpekjx7U2vsptAl8gf/IB2qOysEYzROm3FHKApb07hpBgZuKF7iTlvogEM6jBd6RKpnOrbfOD6ePnykgskwFvDDLEUGwQ3IkM8kHY0Cugc/ilkoaBLe9JCSKw28gDoDf1+6+0Jwhw4Ua7DttwIDAQAB",
+   "manifest_version": 3,
+   "name": "MediaPlayer - Video and Audio Player",
+   "offline_enabled": true,
+   "optional_host_permissions": [ "*://*/*" ],
+   "optional_permissions": [ "activeTab", "scripting" ],
+   "permissions": [ "storage", "contextMenus", "notifications", "declarativeNetRequestWithHostAccess" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.4.9"
+}

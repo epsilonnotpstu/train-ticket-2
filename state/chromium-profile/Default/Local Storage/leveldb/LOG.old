@@ -1,0 +1,8 @@
+2026/03/25-20:29:35.946 5 Creating DB /home/afridi/.config/chromium/Default/Local Storage/leveldb since it was missing.
+2026/03/25-20:29:35.953 5 Reusing MANIFEST /home/afridi/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2026/03/25-20:30:24.603 5 Level-0 table #5: started
+2026/03/25-20:30:24.606 5 Level-0 table #5: 80125 bytes OK
+2026/03/25-20:30:24.607 5 Delete type=0 #3
+2026/03/25-20:31:27.832 7 Level-0 table #7: started
+2026/03/25-20:31:27.834 7 Level-0 table #7: 20030 bytes OK
+2026/03/25-20:31:27.837 7 Delete type=0 #4

@@ -1,0 +1,152 @@
+body {
+  border: 0;
+  padding: 0;
+  width: 100%;
+  color: #333;
+  margin: 0 auto;
+  font-size: 13px;
+  max-width: 1200px;
+  font-family: arial, sans-serif;
+}
+
+input {
+  padding: 0;
+  margin: 0 5px;
+  outline: none;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+input[type='text'] {
+  width: 100%;
+}
+
+input[type='checkbox'] {
+  padding: 0;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+
+input[type='number'] {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  width: 150px;
+  height: 42px;
+  background: #fff;
+  font-weight: 600;
+  text-indent: 10px;
+  line-height: 42px;
+  font-family: monospace;
+  vertical-align: middle;
+  border: solid 1px rgba(0,0,0,0.25);
+}
+
+select {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  width: 150px;
+  height: 42px;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+  text-indent: 5px;
+  font-weight: 600;
+  font-family: monospace;
+  background-color: #fff;
+  border: solid 1px rgba(0,0,0,0.25);
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.content table {
+  width: 100%;
+  color: #333;
+  height: 100%;
+  padding: 10px;
+  margin: 0 auto;
+  font-size: 13px;
+  border-spacing: 5px 10px;
+  border-collapse: separate;
+  background-color: transparent;
+  font-family: arial, sans-serif;
+}
+
+.content table .title {
+  width: 220px;
+  font-weight: 600;
+  user-select: none;
+  border-right: solid 1px rgba(0,0,0,0.1);
+}
+
+.content table .note {
+  margin: 5px 0;
+  padding: 5px 0;
+  font-size: 13px;
+  user-select: none;
+  color: #555 !important;
+}
+
+.content table tr td {
+  color: #333;
+  padding: 10px;
+  font-size: 13px;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+.content table tr td .value {
+  float: right;
+}
+
+.content table tr td .name {
+  color: #7249bc;
+  padding: 10px 0;
+  font-weight: 600;
+  user-select: none;
+}
+
+.logo {
+  width: 100%;
+  height: 128px;
+  border-bottom: solid 1px rgba(0,0,0,0.1);
+  background: url('../icons/128.png') no-repeat center center;
+  background-size: 64px;
+}
+
+@media (prefers-color-scheme: dark) {
+  html, body {
+    color: #ebebeb;
+    color-scheme: dark;
+    background-color: #1e1e1e;
+  }
+  .content {
+    color: #ebebeb;
+    background-color: #1e1e1e;
+  }
+  .content select,
+  .content input[type='number'] {
+    color: #ebebeb;
+    background-color: #1e1e1e;
+    border-color: rgb(255 255 255 / 25%);
+  }
+  .content table .note {
+    color: #cdcdcd !important;
+  }
+  .content table .title {
+    color: #ebebeb;
+  }
+  .content table tr td .name {
+    color: #9e6afb;
+  }
+  .content table .title {
+    border-color: rgb(255 255 255 / 10%);
+  }
+  .logo {
+    border-bottom-color: rgb(255 255 255 / 10%);
+  }
+}

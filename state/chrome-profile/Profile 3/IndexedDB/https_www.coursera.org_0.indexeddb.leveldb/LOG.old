@@ -1,0 +1,44 @@
+2026/01/23-15:03:01.727 d3d0 Reusing MANIFEST /home/afridi/.config/google-chrome/Profile 3/IndexedDB/https_www.coursera.org_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/23-15:03:01.728 d3d0 Recovering log #4
+2026/01/23-15:03:01.728 d3d0 Reusing old log /home/afridi/.config/google-chrome/Profile 3/IndexedDB/https_www.coursera.org_0.indexeddb.leveldb/000004.log 
+2026/01/23-15:03:04.385 d3d3 Level-0 table #8: started
+2026/01/23-15:03:04.407 d3d3 Level-0 table #8: 3331859 bytes OK
+2026/01/23-15:03:04.410 d3d3 Delete type=0 #4
+2026/01/23-15:03:04.476 d3d3 Level-0 table #10: started
+2026/01/23-15:03:04.489 d3d3 Level-0 table #10: 3497949 bytes OK
+2026/01/23-15:03:04.490 d3d3 Delete type=0 #7
+2026/01/23-15:03:04.509 d3e8 Level-0 table #12: started
+2026/01/23-15:03:04.521 d3e8 Level-0 table #12: 3484926 bytes OK
+2026/01/23-15:03:04.522 d3e8 Delete type=0 #9
+2026/01/23-15:03:04.535 d3d3 Level-0 table #14: started
+2026/01/23-15:03:04.544 d3d3 Level-0 table #14: 3852284 bytes OK
+2026/01/23-15:03:04.546 d3d3 Delete type=0 #11
+2026/01/23-15:03:04.998 d3d0 Compacting 3@0 + 1@1 files
+2026/01/23-15:03:05.013 d3d0 Generated table #15@0: 1573 keys, 317983 bytes
+2026/01/23-15:03:05.013 d3d0 Compacted 3@0 + 1@1 files => 317983 bytes
+2026/01/23-15:03:05.015 d3d0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/23-15:03:05.111 d3e8 Compacting 1@1 + 1@2 files
+2026/01/23-15:03:05.114 d3e8 Generated table #16@1: 121 keys, 302567 bytes
+2026/01/23-15:03:05.114 d3e8 Compacted 1@1 + 1@2 files => 302567 bytes
+2026/01/23-15:03:05.116 d3e8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/01/23-15:03:05.116 d3e8 Delete type=2 #5
+2026/01/23-15:03:05.116 d3e8 Delete type=2 #8
+2026/01/23-15:03:05.116 d3e8 Delete type=2 #10
+2026/01/23-15:03:05.116 d3e8 Delete type=2 #12
+2026/01/23-15:03:05.116 d3e8 Delete type=2 #14
+2026/01/23-15:03:05.116 d3e8 Delete type=2 #15
+2026/01/23-15:03:05.382 d3e8 Level-0 table #18: started
+2026/01/23-15:03:05.391 d3e8 Level-0 table #18: 3987801 bytes OK
+2026/01/23-15:03:05.393 d3e8 Delete type=0 #13
+2026/01/23-15:03:05.874 d3e8 Level-0 table #20: started
+2026/01/23-15:03:05.885 d3e8 Level-0 table #20: 3364288 bytes OK
+2026/01/23-15:03:05.887 d3e8 Delete type=0 #17
+2026/01/23-15:03:06.772 d3e8 Compacting 1@0 + 1@1 files
+2026/01/23-15:03:06.779 d3e8 Generated table #21@0: 2200 keys, 104738 bytes
+2026/01/23-15:03:06.779 d3e8 Compacted 1@0 + 1@1 files => 104738 bytes
+2026/01/23-15:03:06.780 d3e8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/23-15:03:06.780 d3e8 Delete type=2 #18
+2026/01/23-15:03:06.780 d3e8 Delete type=2 #20
+2026/01/23-15:03:13.622 d3d3 Level-0 table #23: started
+2026/01/23-15:03:13.640 d3d3 Level-0 table #23: 3417793 bytes OK
+2026/01/23-15:03:13.641 d3d3 Delete type=0 #19

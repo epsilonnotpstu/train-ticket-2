@@ -1,0 +1,15 @@
+2026/01/23-15:03:18.920 d3d3 Reusing MANIFEST /home/afridi/.config/google-chrome/Profile 3/IndexedDB/https_www.coursera.org_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/23-15:03:18.920 d3d3 Recovering log #22
+2026/01/23-15:03:18.921 d3d3 Reusing old log /home/afridi/.config/google-chrome/Profile 3/IndexedDB/https_www.coursera.org_0.indexeddb.leveldb/000022.log 
+2026/01/23-15:03:19.981 d3d0 Compacting 1@0 + 1@1 files
+2026/01/23-15:03:19.985 d3d0 Generated table #25@0: 3389 keys, 134217 bytes
+2026/01/23-15:03:19.986 d3d0 Compacted 1@0 + 1@1 files => 134217 bytes
+2026/01/23-15:03:19.987 d3d0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/23-15:03:19.987 d3d0 Delete type=2 #21
+2026/01/23-15:03:19.987 d3d0 Delete type=2 #23
+2026/01/23-15:03:28.588 d3d0 Compacting 1@1 + 1@2 files
+2026/01/23-15:03:28.590 d3d0 Generated table #26@1: 112 keys, 141300 bytes
+2026/01/23-15:03:28.590 d3d0 Compacted 1@1 + 1@2 files => 141300 bytes
+2026/01/23-15:03:28.592 d3d0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/01/23-15:03:28.592 d3d0 Delete type=2 #16
+2026/01/23-15:03:28.592 d3d0 Delete type=2 #25

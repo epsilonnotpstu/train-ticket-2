@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slide Engine Sandbox</title>
+</head>
+<body>
+    <!-- 
+      Sandbox pages have relaxed CSP that allows eval (needed for OpenCV).
+      OpenCV must be loaded first before sandbox.bundle.js.
+    -->
+    <script>
+      console.log('[AI-SLIDES][Sandbox HTML] Starting script load...');
+      console.log('[AI-SLIDES][Sandbox HTML] Location:', window.location.href);
+    </script>
+    <script src="vendor/js/opencv.js" onerror="console.error('[AI-SLIDES][Sandbox HTML] Failed to load opencv.js')"></script>
+    <script>
+      console.log('[AI-SLIDES][Sandbox HTML] After opencv.js, cv defined:', typeof cv !== 'undefined');
+    </script>
+    <script src="sandbox.bundle.js" onerror="console.error('[AI-SLIDES][Sandbox HTML] Failed to load sandbox.bundle.js')"></script>
+</body>
+</html>

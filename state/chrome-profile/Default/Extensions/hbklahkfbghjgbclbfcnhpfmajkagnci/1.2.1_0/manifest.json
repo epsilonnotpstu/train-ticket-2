@@ -1,0 +1,78 @@
+{
+   "action": {
+      "default_title": "VideoNotebook.com"
+   },
+   "background": {
+      "service_worker": "background.bundle.js",
+      "type": "module"
+   },
+   "commands": {
+      "add-marker-note": {
+         "description": "Add a bookmark",
+         "suggested_key": {
+            "default": "Alt+B"
+         }
+      },
+      "add-screenshot-note": {
+         "description": "Add a screenshot",
+         "suggested_key": {
+            "default": "Alt+S"
+         }
+      },
+      "add-text-note": {
+         "description": "Add a text note",
+         "suggested_key": {
+            "default": "Alt+Z"
+         }
+      },
+      "enable-ai-content": {
+         "description": "Enable AI content",
+         "suggested_key": {
+            "default": "Alt+A"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_globs": [ "*://*.videonotebook.com/notebooks/*" ],
+      "exclude_matches": [ "*://videonotebook.com/*", "*://meet.google.com/*" ],
+      "js": [ "default-content.bundle.js" ],
+      "matches": [ "https://*/*", "http://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "google-meet-content.bundle.js" ],
+      "matches": [ "https://meet.google.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "embed-page.bundle.js" ],
+      "matches": [ "https://localhost/*", "http://localhost/*", "https://*.videonotebook.com/*", "https://*.youtube.com/embed/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "description": "Video notetaking powered by OpenAI API on YouTube, Google Meet, Udemy & more!",
+   "externally_connectable": {
+      "matches": [ "*://*.videonotebook.com/*", "http://localhost:9000/*", "https://localhost:9000/*" ]
+   },
+   "host_permissions": [ "\u003Call_urls>", "https://www.google-analytics.com/", "*://*.videonotebook.com/*" ],
+   "icons": {
+      "48": "icons/tray_default.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsCoUejKdbokDJqUvLVh8hGZyH00OdjjJdquxz/qAfhfDurWpEho2lkY5+t5n3LnDl8C3v8ZUnAm+te01pWmp7Vclg8a8n5IzZf4LLiCbXno+HEmDDtUCgmgL/MviiZn6exYoFgpZmviQlZ2RCypSIbnV2DKUr0K8Y17OtTMxxpVm7mW7d38ICdLjECluS3yUg/xl5ZAf82CTjt/4GT1ciLk4xOMdOT62quXHP7t7VepNaELov1UPPbe0ttpVW3Zdem0jxQn/Kb+/BYw+wVOYgp/5bQHWUBQElJdT2Q6lxPUldhTfUfTnGDUExMes14c5Eq+Cv/xskZTOyZIn5Vh8xwIDAQAB",
+   "manifest_version": 3,
+   "name": "AI-powered Notes on Videos - Video Notebook",
+   "permissions": [ "tabs", "storage", "cookies", "webRequest", "webNavigation", "activeTab" ],
+   "sandbox": {
+      "pages": [ "sandbox.html" ]
+   },
+   "short_name": "Video Notebook",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.1",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "vendor/css/*", "css/*", "icons/*", "assets/fonts/*", "sandbox.html" ]
+   } ]
+}

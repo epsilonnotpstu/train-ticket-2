@@ -1,0 +1,74 @@
+2025/09/19-21:18:04.950 11a9f Reusing MANIFEST /home/afridi/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/19-21:18:04.950 11a9f Recovering log #110
+2025/09/19-21:18:04.954 11a9f Reusing old log /home/afridi/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000110.log 
+2025/09/19-21:18:21.020 11a9f Level-0 table #116: started
+2025/09/19-21:18:21.035 11a9d Current memtable full; waiting...
+2025/09/19-21:18:21.038 11a9f Level-0 table #116: 2524161 bytes OK
+2025/09/19-21:18:21.039 11a9f Delete type=0 #110
+2025/09/19-21:18:21.040 11a9f Level-0 table #118: started
+2025/09/19-21:18:21.056 11a9f Level-0 table #118: 1705815 bytes OK
+2025/09/19-21:18:21.058 11a9f Delete type=0 #115
+2025/09/19-21:18:21.059 11a9f Level-0 table #120: started
+2025/09/19-21:18:21.071 11a9f Level-0 table #120: 669965 bytes OK
+2025/09/19-21:18:21.073 11a9f Delete type=0 #117
+2025/09/19-21:18:21.102 11a9f Level-0 table #122: started
+2025/09/19-21:18:21.114 11a9f Level-0 table #122: 617363 bytes OK
+2025/09/19-21:18:21.116 11a9f Delete type=0 #119
+2025/09/19-21:18:23.222 11a9f Compacting 3@0 + 1@1 files
+2025/09/19-21:18:23.246 11a9f Generated table #123@0: 29030 keys, 381539 bytes
+2025/09/19-21:18:23.246 11a9f Compacted 3@0 + 1@1 files => 381539 bytes
+2025/09/19-21:18:23.247 11a9f compacted to: files[ 0 1 2 0 0 0 0 ]
+2025/09/19-21:18:23.247 11a9f Delete type=2 #116
+2025/09/19-21:18:23.247 11a9f Delete type=2 #118
+2025/09/19-21:18:23.247 11a9f Delete type=2 #120
+2025/09/19-21:18:23.247 11a9f Delete type=2 #122
+2025/09/19-21:18:25.408 11a9f Compacting 1@1 + 2@2 files
+2025/09/19-21:18:25.419 11a9f Generated table #124@1: 247 keys, 25264 bytes
+2025/09/19-21:18:25.419 11a9f Compacted 1@1 + 2@2 files => 25264 bytes
+2025/09/19-21:18:25.420 11a9f compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/19-21:18:25.468 11a9f Level-0 table #126: started
+2025/09/19-21:18:25.481 11a9f Level-0 table #126: 1230557 bytes OK
+2025/09/19-21:18:25.483 11a9f Delete type=2 #112
+2025/09/19-21:18:25.483 11a9f Delete type=2 #113
+2025/09/19-21:18:25.483 11a9f Delete type=0 #121
+2025/09/19-21:18:25.483 11a9f Delete type=2 #123
+2025/09/19-21:18:25.484 11a9f Compacting 1@1 + 1@2 files
+2025/09/19-21:18:25.498 11a9f Generated table #127@1: 8312 keys, 1207692 bytes
+2025/09/19-21:18:25.498 11a9f Compacted 1@1 + 1@2 files => 1207692 bytes
+2025/09/19-21:18:25.500 11a9f compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/19-21:18:25.500 11a9f Delete type=2 #124
+2025/09/19-21:18:25.500 11a9f Delete type=2 #126
+2025/09/19-21:18:25.522 11a9f Level-0 table #129: started
+2025/09/19-21:18:25.534 11a9f Level-0 table #129: 1460788 bytes OK
+2025/09/19-21:18:25.536 11a9f Delete type=0 #125
+2025/09/19-21:18:25.537 11a9f Compacting 1@1 + 1@2 files
+2025/09/19-21:18:25.553 11a9f Level-0 table #132: started
+2025/09/19-21:18:25.565 11a9f Level-0 table #132: 1408288 bytes OK
+2025/09/19-21:18:25.567 11a9f Delete type=0 #128
+2025/09/19-21:18:25.576 11a9f Generated table #130@1: 11579 keys, 2142732 bytes
+2025/09/19-21:18:25.585 11a9f Generated table #133@1: 3608 keys, 517872 bytes
+2025/09/19-21:18:25.585 11a9f Compacted 1@1 + 1@2 files => 2660604 bytes
+2025/09/19-21:18:25.586 11a9f compacted to: files[ 1 0 2 0 0 0 0 ]
+2025/09/19-21:18:25.586 11a9f Delete type=2 #127
+2025/09/19-21:18:25.587 11a9f Delete type=2 #129
+2025/09/19-21:18:25.588 11aa2 Moved #132 to level-1 1408288 bytes OK: files[ 0 1 2 0 0 0 0 ]
+2025/09/19-21:18:25.590 11a9f Compacting 1@1 + 2@2 files
+2025/09/19-21:18:25.621 11a9f Generated table #134@1: 13345 keys, 2144901 bytes
+2025/09/19-21:18:25.641 11a9f Generated table #135@1: 6557 keys, 1914940 bytes
+2025/09/19-21:18:25.641 11a9f Compacted 1@1 + 2@2 files => 4059841 bytes
+2025/09/19-21:18:25.642 11a9f compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/09/19-21:18:25.642 11a9f Delete type=2 #130
+2025/09/19-21:18:25.642 11a9f Delete type=2 #132
+2025/09/19-21:18:25.642 11a9f Delete type=2 #133
+2025/09/19-21:18:25.655 11a9f Level-0 table #137: started
+2025/09/19-21:18:25.665 11a9f Level-0 table #137: 467111 bytes OK
+2025/09/19-21:18:25.667 11a9f Delete type=0 #131
+2025/09/19-23:18:16.044 11a9f Compacting 1@1 + 2@2 files
+2025/09/19-23:18:16.078 11a9f Generated table #138@1: 21392 keys, 2160372 bytes
+2025/09/19-23:18:16.098 11a9f Generated table #139@1: 8846 keys, 2140145 bytes
+2025/09/19-23:18:16.103 11a9f Generated table #140@1: 3744 keys, 202380 bytes
+2025/09/19-23:18:16.103 11a9f Compacted 1@1 + 2@2 files => 4502897 bytes
+2025/09/19-23:18:16.104 11a9f compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/09/19-23:18:16.105 11a9f Delete type=2 #134
+2025/09/19-23:18:16.105 11a9f Delete type=2 #135
+2025/09/19-23:18:16.105 11a9f Delete type=2 #137

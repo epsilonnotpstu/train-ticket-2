@@ -1,0 +1,1 @@
+chrome.action.onClicked.addListener((function(e){chrome.storage.sync.set({shouldRenderControls:"true"})}));

@@ -1,0 +1,6 @@
+2026/02/08-10:19:01.636 245e3 Creating DB /home/afridi/.config/google-chrome/Profile 3/IndexedDB/https_1xlite-08668.world_0.indexeddb.leveldb since it was missing.
+2026/02/08-10:19:01.638 245e3 Reusing MANIFEST /home/afridi/.config/google-chrome/Profile 3/IndexedDB/https_1xlite-08668.world_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/08-10:19:07.634 245e7 Level-0 table #5: started
+2026/02/08-10:19:07.636 245e7 Level-0 table #5: 77475 bytes OK
+2026/02/08-10:19:07.638 245e7 Delete type=0 #3
+2026/02/08-10:19:07.638 245e7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

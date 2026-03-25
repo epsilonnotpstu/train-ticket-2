@@ -1,0 +1,21 @@
+2025/11/27-21:00:22.737 1fa4b Reusing MANIFEST /home/afridi/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/27-21:00:22.737 1fa4b Recovering log #15
+2025/11/27-21:00:22.741 1fa4b Reusing old log /home/afridi/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000015.log 
+2025/11/27-21:00:26.805 1fa49 Compacting 1@1 + 1@2 files
+2025/11/27-21:00:26.818 1fa49 Generated table #18@1: 257 keys, 1220646 bytes
+2025/11/27-21:00:26.818 1fa49 Compacted 1@1 + 1@2 files => 1220646 bytes
+2025/11/27-21:00:26.819 1fa49 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/27-21:00:26.819 1fa49 Delete type=2 #14
+2025/11/27-21:00:26.819 1fa49 Delete type=2 #16
+2025/11/27-21:00:29.070 1fa49 Level-0 table #20: started
+2025/11/27-21:00:29.086 1fa49 Level-0 table #20: 3209456 bytes OK
+2025/11/27-21:00:29.088 1fa49 Delete type=0 #15
+2025/11/27-21:00:34.414 1fa5a Compacting 1@1 + 1@2 files
+2025/11/27-21:00:34.425 1fa5a Generated table #21@1: 192 keys, 759306 bytes
+2025/11/27-21:00:34.425 1fa5a Compacted 1@1 + 1@2 files => 759306 bytes
+2025/11/27-21:00:34.426 1fa5a compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/27-21:00:34.427 1fa5a Delete type=2 #18
+2025/11/27-21:00:34.427 1fa5a Delete type=2 #20
+2025/11/27-21:00:44.731 1fa4b Level-0 table #23: started
+2025/11/27-21:00:44.748 1fa4b Level-0 table #23: 3259982 bytes OK
+2025/11/27-21:00:44.750 1fa4b Delete type=0 #19

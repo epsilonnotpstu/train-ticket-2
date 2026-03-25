@@ -1,0 +1,67 @@
+{
+   "checksum": "87122f0212f87903f5caeb4e99f62652",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13415635357573887",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13415635357573887",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13306174053420720",
+            "date_last_used": "0",
+            "guid": "1a7827ac-7045-4e19-b61f-68e54eac7423",
+            "id": "5",
+            "name": "Inspect eliment",
+            "type": "url",
+            "url": "javascript:(function () {     var script =  document.createElement('script');    script.src=\"//cdn.jsdelivr.net/npm/eruda\";     document.body.appendChild(script);    script.onload = function () {         eruda.init()     } })();"
+         }, {
+            "date_added": "13332056447982786",
+            "date_last_used": "0",
+            "guid": "6c3f65c1-c126-4a2a-971e-2dcb67a46093",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Messages for web",
+            "type": "url",
+            "url": "https://messages.google.com/web/conversations"
+         }, {
+            "date_added": "13337198358911066",
+            "date_last_used": "0",
+            "guid": "30db116d-c3b7-4da3-9e73-78c7838b3256",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Goku.to – Stream & Download the Latest Movies & tv series for free",
+            "type": "url",
+            "url": "https://www.thecorrectblogger.com/2023/01/goku-to.html"
+         } ],
+         "date_added": "13415635357573887",
+         "date_last_used": "0",
+         "date_modified": "13337198358911066",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CpYCCvUBCIiBAhLuASAAkgHZAQrWAQoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJ2Vjmu9xKBgAR2Vjmu9xKBgAiNAmD67273EoGABADGW8SkYcQ5g5/IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAmD67273EoGABADGW8SkYcQ5g5/IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAmD67273EoGABADGW8SkYcQ5g5/IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEpzSfnu9xKBgDqAQwIpZHHzAYQ8MOPwwMSACoYUlFvWWJqQ01VS01pcmFpbkxQZEdwUT09SAMS7AEIBxLnAQocemNDL1lOMUdWZDUwZThJS2REU1VQNHozZ0tzPRJmWjpBRHF0QVp4eGkrU2o2MlVrQ2VyU25FZFN0U3hzajZ5RzUrNm12cnhvWkVkL1lWbXEwKzkwd1gwcnJVbzcyY1NWVFd6VWpQb0hsLzVFUmo3MUh1N2NXRkpTNjdtb01wS0c4Zz09GAAgACgAMNDzxpLj8IADOIKTiPKhMUCCk4jyoTFKHG5qMzhvYkdiaEZCNjlMOGI1STNqQmhVN0VmTT1aHyId3W1NTWNMSWdMYm5YdlFGcEErTjNIWlVUamRaMD1ljq50hhLsAQgGEucBChxKcXlEMjZNY3lCSnd6UHd4anNHUGtScHUvOEk9EmZaOkFEcXRBWnh4aStTajYyVWtDZXJTbkVkU3RTeHN2UVlKSFdleUcwMVZUL1Y3WWlaQk9BWDd6QWxSWVExaEpmNFhwMElVMkRUM2NDdEpJVnhmNlptQTBHSzZVZE9pMTJLaDZRPT0YACAAKAAw8fO84uP/gAM4+Oea3o4xQPjnmt6OMUocTWM5TlpqdUE0KzEyVlhVQXNYZE0rYXRlZUVrPVofIh27dFBYRXFMNjBHR2ZXbnpjaWdDQzFtRjZHRzBBPWWsm//SEusBCAUS5gEKHHRxaksrRnUvbHN0dDRSVlVoRG5yeDhOUS9uST0SZlo6QURxdEFaeHhpK1NqNjJVa0NlclNuRWRTdFN4c21oQ0d3NnByZGl3WmhRWnhnblhDbHpRaVJtQjQyL0tQTXF2aDBJLzdNZGxqOU1UNERWZ295VVFuOXNoYTFWNHRaOFBJbnc9PRgAIAAoADCHif7W7On5Ajiu6MKorjBArujCqK4wShx4MVJNRTNyUnhzblhtQk9BNjZ6d0s2NXFkQnM9Wh4iHHZVODZVdXg0SmF2bzlBNEsza0NQY2pQK2twaz1lAAAAABLDAQgDEr4BChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EmZaOkFEcXRBWndyZjZsaVhMTmhjT05tTGxwc005VW5YTFJUcER3bmVSbSt3T2l5UGFrbzZ4dHFkajdjdm9YUnp6d2IxQ0cvbzZ0blBjeDB5bitCVFlaRnZHSHhXRzdsTHY4QjJBPT0YACAAKAAw1ZHDmPjTigM4AEAAShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAABLDAQgCEr4BChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EmZaOkFEcXRBWnh4dUhlWFhoZEs1eGtwK0wxczJ0Z3VvOWFuSHR1SS9KT0JkcGZMKzViMzQ0NHY0RjB0ODU2bnkvbmpra253MVE4dnN2YjV4RDlhZXBpcVU1cWd3MGhWcVhhNHZRPT0YACAAKAAw1ZHDmPjTigM4AEAAShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABKrAQgBEqYBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9Ek5aOkFEcXRBWnllTUxRazA4QzIvQm93OVg4cHJQTDZmY3dIZjBlSUQ1U282Uy9wZHE0K2drZEtDd2IyUk15OWlYWTB6MnIzN0YyaXltRzYYACAAKAAw1ZHDmPjTigM4AEAAShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAADABOAA=",
+   "version": 1
+}

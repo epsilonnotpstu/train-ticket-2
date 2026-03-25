@@ -1,0 +1,107 @@
+.translate_video_yichong{
+  display: inline-flex;
+  cursor: pointer;
+  align-items: center;
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.translate_video_yichong>img{
+  height: 25px;
+  width: 25px;
+}
+.translate_video_yichong_title{
+  margin-left: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+.yichong_black{
+  color: black !important;
+}
+
+.fb_video_home{
+  margin: 3px 0px;
+  margin-left: 250px;
+  padding: 0px 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  background-color: #e8f2fe;
+  font: bold;
+  cursor: pointer;
+}
+.fb_video_home>img{
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.yichong_video{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+
+
+
+#floating-container {
+  position: fixed;
+  bottom: 5%;
+  transform: translateY(-50%);
+  right: -30px;
+  transition: right 0.3s ease-out;
+}
+
+#floating-button {
+  font-size: 20px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 50%;
+  outline: none;
+  transition: background-color 0.3s ease-out;
+}
+
+#floating-button:hover {
+  background-color: #2980b9;
+}
+.clear{
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  cursor: pointer;
+}
+
+.el-loading-mask{
+  z-index: 40 !important;
+  position:static !important;
+}
+
+
+
+
+/* 隐藏原本youtube 字幕 caption-visual-line 行 */
+.caption-visual-line{
+  display: none;
+}
+
+
+/* 该class为youtube 原本的 字幕 盒 */
+.captions-text{
+
+}
+
+#upgradeInfo {
+  background-color: rgba(0, 0, 0, 0.1); /* 浅暗色 */
+  border-radius: 8px; /* 圆角 */
+  padding: 10px; /* 内边距 */
+  min-height: 100px;
+}

@@ -1,0 +1,89 @@
+.iconContainer {
+  width: auto;
+  height: auto;
+  min-width: 20px;
+  min-height: 20px;
+  filter: none !important;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  transition-duration: 0.3s;
+  z-index: 999;
+  background-color: red;
+}
+
+.iconContainer:hover .icon {
+  opacity: 1;
+}
+
+.icon {
+  opacity: 0.4;
+  margin-bottom: 16px;
+  transition-duration: 0.2s;
+  width: 40px;
+  height: 40px;
+  border-radius: 200px;
+  background: no-repeat center #ffffff;
+  box-shadow: 0px 12px 20px -10px rgba(0, 0, 0, 0.6);
+  background-size: 30px;
+}
+
+.donateWrapper {
+  transition-delay: 0.8s;
+  transition-duration: 0.4s;
+  opacity: 0;
+  pointer-events: none;
+  height: 0;
+}
+
+.donation {
+  background-color: #ffe004;
+  background-image: url('../img/paypal.png');
+  border: 0;
+}
+
+.extra {
+  background-color: #0a58c5;
+  background-image: url('../img/add.png');
+  border: 0;
+}
+
+.closeButton {
+  background-color: #c81111;
+  background-image: url('../img/close.png');
+  background-size: 30px;
+  border: 0;
+}
+
+.iconContainer:hover .donateWrapper,
+.iconContainer:focus .donateWrapper {
+  opacity: 1;
+  pointer-events: all;
+  height: auto;
+}
+
+.GDDMCheckboxInput {
+  display: none;
+}
+
+.GDDMCheckboxInput:checked~.icon {
+  background-color: #5c5c5c;
+}
+
+.GDDMCheckboxMain~.icon {
+  background-image: url('../img/moon.png');
+}
+
+.GDDMCheckboxMain:checked~.icon {
+  background-image: url('../img/sun.png');
+}
+
+.GDDMCheckboxPage~.icon {
+  background-image: url('../img/docBlack.png');
+}
+
+.GDDMCheckboxPage:checked~.icon {
+  background-image: url('../img/docWhite.png');
+}

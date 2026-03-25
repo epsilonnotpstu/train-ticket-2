@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="132" height="73" viewBox="0 0 132 73">
+  <defs>
+    <filter id="Rectangle_90" x="0" y="0" width="132" height="73" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_572" data-name="Group 572" transform="translate(-184 -70)">
+    <g transform="matrix(1, 0, 0, 1, 184, 70)" filter="url(#Rectangle_90)">
+      <g id="Rectangle_90-2" data-name="Rectangle 90" transform="translate(9 6)" fill="#e0001b" stroke="#e0001b" stroke-width="1">
+        <rect width="114" height="55" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="113" height="54" rx="3.5" fill="none"/>
+      </g>
+    </g>
+    <line id="Line_14" data-name="Line 14" x1="4.46" y2="4.46" transform="translate(297.39 81.95)" fill="none" stroke="#fff" stroke-width="1"/>
+    <line id="Line_15" data-name="Line 15" x2="4.46" y2="4.46" transform="translate(297.39 81.95)" fill="none" stroke="#fff" stroke-width="1"/>
+    <circle id="Ellipse_53" data-name="Ellipse 53" cx="1" cy="1" r="1" transform="translate(246 81)" fill="#fff"/>
+    <circle id="Ellipse_54" data-name="Ellipse 54" cx="1" cy="1" r="1" transform="translate(249 81)" fill="#fff"/>
+    <circle id="Ellipse_55" data-name="Ellipse 55" cx="1" cy="1" r="1" transform="translate(252 81)" fill="#fff"/>
+    <circle id="Ellipse_56" data-name="Ellipse 56" cx="1" cy="1" r="1" transform="translate(252 84)" fill="#fff"/>
+    <circle id="Ellipse_57" data-name="Ellipse 57" cx="1" cy="1" r="1" transform="translate(249 84)" fill="#fff"/>
+    <circle id="Ellipse_58" data-name="Ellipse 58" cx="1" cy="1" r="1" transform="translate(246 84)" fill="#fff"/>
+    <rect id="Rectangle_91" data-name="Rectangle 91" width="64" height="27" rx="2" transform="translate(232 94)" fill="#fff"/>
+    <text id="Add_a_note" data-name="Add a note" transform="translate(239 111)" fill="#bbb" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.025em"><tspan x="0" y="0">Add a note</tspan></text>
+    <circle id="Ellipse_59" data-name="Ellipse 59" cx="12" cy="12" r="12" transform="translate(203 96)" opacity="0.24"/>
+    <g id="Group_570" data-name="Group 570" transform="translate(43.724 7.392)">
+      <g id="Group_571" data-name="Group 571" transform="translate(164.5 93.983)">
+        <path id="Path_381" data-name="Path 381" d="M1.749-2.823H3.76a14.384,14.384,0,0,1,0-1.629c.061-.19-.2-.568,3.035-.565s3.042.4,3.085.565,0,1.629,0,1.629H11.8a1.749,1.749,0,0,1,1.749,1.749V5.484A1.749,1.749,0,0,1,11.8,7.232H1.749A1.749,1.749,0,0,1,0,5.484V-1.075A1.749,1.749,0,0,1,1.749-2.823Z" transform="translate(0 5.017)" fill="#fff"/>
+        <g id="Ellipse_60" data-name="Ellipse 60" transform="translate(3.485 3.885)" fill="none" stroke="#e0001b" stroke-width="1">
+          <circle cx="3.485" cy="3.485" r="3.485" stroke="none"/>
+          <circle cx="3.485" cy="3.485" r="2.985" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <path id="Path_382" data-name="Path 382" d="M0,1.755H6.539L5.832,0,1.826.144Z" transform="translate(202.463 86.526) rotate(-68.06)" fill="#fff"/>
+    <path id="Path_383" data-name="Path 383" d="M1-2.956.967-3.047H-.964l2.529,6.3H3.174l.01-.026Z" transform="translate(200.824 84.161)" fill="#fff"/>
+    <path id="Path_384" data-name="Path 384" d="M0,1.662H6.5L5.86,0,1.852.079Z" transform="matrix(0.359, -0.933, 0.933, 0.359, 210.504, 86.586)" fill="#fff"/>
+    <path id="Path_385" data-name="Path 385" d="M.484-2.956.451-3.047H.441L-.467-.526,1.049,3.251H2.658l.01-.026Z" transform="translate(209.305 84.161)" fill="#fff"/>
+    <path id="Path_386" data-name="Path 386" d="M0,6.284H1.558L4.081,0H2.27Z" transform="translate(209.605 87.398) rotate(180)" fill="#fff"/>
+  </g>
+</svg>

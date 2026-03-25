@@ -1,0 +1,13 @@
+2026/03/16-22:31:07.823 41dd Reusing MANIFEST /home/afridi/.config/google-chrome/Profile 1/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2026/03/16-22:31:07.825 41dd Recovering log #23
+2026/03/16-22:31:07.827 41dd Reusing old log /home/afridi/.config/google-chrome/Profile 1/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000023.log 
+2026/03/16-23:37:42.304 41dd Level-0 table #27: started
+2026/03/16-23:37:42.337 41dd Level-0 table #27: 1382903 bytes OK
+2026/03/16-23:37:42.340 41dd Delete type=0 #23
+2026/03/17-00:20:05.255 41dd Compacting 2@0 + 1@1 files
+2026/03/17-00:20:05.280 41dd Generated table #28@0: 18 keys, 384451 bytes
+2026/03/17-00:20:05.280 41dd Compacted 2@0 + 1@1 files => 384451 bytes
+2026/03/17-00:20:05.282 41dd compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/17-00:20:05.282 41dd Delete type=2 #21
+2026/03/17-00:20:05.282 41dd Delete type=2 #24
+2026/03/17-00:20:05.282 41dd Delete type=2 #27

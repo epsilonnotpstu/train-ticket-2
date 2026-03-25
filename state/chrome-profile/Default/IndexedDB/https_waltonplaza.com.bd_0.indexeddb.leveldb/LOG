@@ -1,0 +1,14 @@
+2025/06/15-13:20:14.435 523 Creating DB /home/afridi/.config/google-chrome/Default/IndexedDB/https_waltonplaza.com.bd_0.indexeddb.leveldb since it was missing.
+2025/06/15-13:20:14.437 523 Reusing MANIFEST /home/afridi/.config/google-chrome/Default/IndexedDB/https_waltonplaza.com.bd_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/15-13:20:14.444 524 Level-0 table #5: started
+2025/06/15-13:20:14.445 524 Level-0 table #5: 1276 bytes OK
+2025/06/15-13:20:14.447 524 Delete type=0 #3
+2025/06/15-13:20:14.448 522 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/06/15-13:23:34.024 524 Level-0 table #7: started
+2025/06/15-13:23:34.034 524 Level-0 table #7: 575112 bytes OK
+2025/06/15-13:23:34.036 524 Delete type=0 #4
+2025/06/15-13:23:34.037 524 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/06/15-13:30:05.705 524 Compacting 1@1 + 1@2 files
+2025/06/15-13:30:05.714 524 Generated table #8@1: 514 keys, 265874 bytes
+2025/06/15-13:30:05.714 524 Compacted 1@1 + 1@2 files => 265874 bytes
+2025/06/15-13:30:05.715 524 compacted to: files[ 0 0 1 0 0 0 0 ]

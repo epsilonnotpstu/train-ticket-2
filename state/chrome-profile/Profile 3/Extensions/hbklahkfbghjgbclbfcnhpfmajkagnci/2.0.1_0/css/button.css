@@ -1,0 +1,8 @@
+.stopTrackingButton {
+  content: url('chrome-extension://__MSG_@@extension_id__/icons/stop.png') !important;
+  width: 16px;
+  height: 16px;
+  right: 38px;
+  position: fixed;
+  cursor: pointer;
+}

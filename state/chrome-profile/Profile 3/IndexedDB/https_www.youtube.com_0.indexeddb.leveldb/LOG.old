@@ -1,0 +1,5 @@
+2026/03/11-19:01:39.192 1be3 Creating DB /home/afridi/.config/google-chrome/Profile 3/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2026/03/11-19:01:39.193 1be3 Reusing MANIFEST /home/afridi/.config/google-chrome/Profile 3/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/11-20:10:27.768 1be7 Level-0 table #5: started
+2026/03/11-20:10:27.776 1be7 Level-0 table #5: 1471177 bytes OK
+2026/03/11-20:10:27.778 1be7 Delete type=0 #3

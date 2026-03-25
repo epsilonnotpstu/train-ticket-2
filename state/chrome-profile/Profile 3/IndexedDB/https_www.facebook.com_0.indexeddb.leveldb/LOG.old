@@ -1,0 +1,19 @@
+2026/03/25-22:15:17.358 2e1d Reusing MANIFEST /home/afridi/.config/google-chrome/Profile 3/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/25-22:15:17.383 2e1d Recovering log #43
+2026/03/25-22:15:17.387 2e1d Reusing old log /home/afridi/.config/google-chrome/Profile 3/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000043.log 
+2026/03/25-22:16:17.124 2e1d Level-0 table #50: started
+2026/03/25-22:16:17.127 2e1d Level-0 table #50: 144381 bytes OK
+2026/03/25-22:16:17.128 2e1d Delete type=0 #43
+2026/03/25-22:16:17.128 2e1d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/03/25-22:16:17.128 2e1d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x11\x02\x1f\x04\x02\x06@\xfd\xe6\xfa1 \x1b\xfe\xcc\xd6\x96$\xc8\xa4V\x83\xed\xf8\xf3\xc6\xa1h\x7f\x08\x89\xd0`\xf5t\xd3\xf4K\xe5\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\xf0i\x10\xd2yB\x00\x03\x00\x00\x00\x00\x00\x80P@' @ 474563 : 0
+2026/03/25-22:16:17.128 2e1d Compacting 1@1 + 3@2 files
+2026/03/25-22:16:17.157 2e1d Generated table #51@1: 40601 keys, 2175573 bytes
+2026/03/25-22:16:17.187 2e1d Generated table #52@1: 51190 keys, 2206157 bytes
+2026/03/25-22:16:17.193 2e1d Generated table #53@1: 5202 keys, 967896 bytes
+2026/03/25-22:16:17.193 2e1d Compacted 1@1 + 3@2 files => 5349626 bytes
+2026/03/25-22:16:17.196 2e1d compacted to: files[ 0 0 3 0 0 0 0 ]
+2026/03/25-22:16:17.196 2e1d Delete type=2 #45
+2026/03/25-22:16:17.196 2e1d Delete type=2 #46
+2026/03/25-22:16:17.196 2e1d Delete type=2 #47
+2026/03/25-22:16:17.196 2e1d Delete type=2 #50
+2026/03/25-22:16:17.196 2e1d Manual compaction at level-1 from '\x00\x11\x02\x1f\x04\x02\x06@\xfd\xe6\xfa1 \x1b\xfe\xcc\xd6\x96$\xc8\xa4V\x83\xed\xf8\xf3\xc6\xa1h\x7f\x08\x89\xd0`\xf5t\xd3\xf4K\xe5\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\xf0i\x10\xd2yB\x00\x03\x00\x00\x00\x00\x00\x80P@' @ 474563 : 0 .. (end); will stop at (end)

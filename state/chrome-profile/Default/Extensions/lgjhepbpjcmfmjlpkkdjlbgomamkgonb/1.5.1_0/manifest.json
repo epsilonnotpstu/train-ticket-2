@@ -1,0 +1,27 @@
+{
+   "action": {
+      "default_icon": "images/icon.png",
+      "default_title": "Activate"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "main.js" ],
+      "matches": [ "https://docs.google.com/document/*" ]
+   } ],
+   "description": "Dark mode for Google Docs!",
+   "icons": {
+      "128": "images/icon_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqvuqlpwDGgmk9akoQbtJfOODSChvnhlaRtrrAmukrOG/SlZkY9/xAvhSXtceV+xI5AIc9j9Ec9vZvYsQueByER0vtbYf/LjPmNS/tv2+pVYy8LfnqZPJBN1mjN4BlcbCDziGUBTHKwiU+6CrO4tF579yMKhxMVEWrlxGMqVx5pQvEYKIGQT6FJw1rpaLKqsz1Y30Rf2N3zBNDO8orjW1Yw+8roEYxEV4tYsd/ZB8M42nuDmX58ptMvwpdDH3ifEQR6fwN4AGN6P+1IbABEfmfzG7I86YJ9fwxzPBmT7fRs2PQtmpx1AWh9AZ+dKI/I3DyjfdVWW62kJUxWOy9OC9xQIDAQAB",
+   "manifest_version": 3,
+   "name": "Google Docs Dark Mode",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5.1",
+   "web_accessible_resources": [ {
+      "matches": [ "https://docs.google.com/*" ],
+      "resources": [ "main.css", "permanent.css", "pageStyle.css", "images/extensionIconLocation.png", "images/icon_128.png", "images/moon.png", "images/sun.png", "images/paypal.png", "images/docWhite.png", "images/docBlack.png", "images/black.png", "images/help.png", "images/close.png", "images/settings.png" ]
+   } ]
+}

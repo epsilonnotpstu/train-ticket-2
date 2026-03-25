@@ -1,0 +1,98 @@
+.controlsContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.extensionLocation {
+  background-image: url('../images/extensionIconLocation.png');
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 16px 0;
+}
+
+.sunIcon {
+  background-image: url('../images/sun.png');
+}
+
+.moonIcon {
+  background-image: url('../images/moon.png');
+}
+
+.pageIconActive {
+  background-image: url('../images/docBlack.png');
+}
+
+.pageIconInactive {
+  background-image: url('../images/docWhite.png');
+}
+
+.paypalIcon {
+  background-image: url('../images/paypal.png');
+}
+
+.closeIcon {
+  background-image: url('../images/close.png');
+}
+
+.helpIcon {
+  background-image: url('../images/help.png');
+}
+
+.settingsIcon {
+  background-image: url('../images/settings.png');
+}
+
+.gddmButtonContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.gddmButton {
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 80px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+  margin-right: 10px;
+}
+
+.gddmPaypalWrapper {
+  height: 40px;
+  width: 40px;
+  opacity: 0;
+  transition-duration: 0.4s;
+  transition-delay: 1.2s;
+  pointer-events: none;
+}
+
+.gddmButtonContainer:hover .gddmPaypalWrapper {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.gddmPaypalButton {
+  background-color: #ffe004;
+  background-image: url('../images/paypal.png');
+}
+
+.gddmToggleButton {
+  background-color: #3c3c3c;
+  background-image: url('../images/sun.png');
+}
+
+.gddmToggleButtonInactive {
+  background-color: #f3f3f3;
+  background-image: url('../images/moon.png');
+}

@@ -1,0 +1,81 @@
+2025/11/13-16:42:01.863 886 Reusing MANIFEST /home/afridi/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/13-16:42:01.864 886 Recovering log #136
+2025/11/13-16:42:01.880 886 Reusing old log /home/afridi/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000136.log 
+2025/11/13-16:58:28.271 888 Level-0 table #143: started
+2025/11/13-16:58:28.282 886 Current memtable full; waiting...
+2025/11/13-16:58:28.284 888 Level-0 table #143: 1801029 bytes OK
+2025/11/13-16:58:28.285 888 Delete type=0 #136
+2025/11/13-16:58:28.286 888 Level-0 table #145: started
+2025/11/13-16:58:28.299 888 Level-0 table #145: 1765452 bytes OK
+2025/11/13-16:58:28.300 888 Delete type=0 #142
+2025/11/13-16:58:28.301 888 Level-0 table #147: started
+2025/11/13-16:58:28.312 888 Level-0 table #147: 828161 bytes OK
+2025/11/13-16:58:28.314 888 Delete type=0 #144
+2025/11/13-16:58:28.320 888 Level-0 table #149: started
+2025/11/13-16:58:28.331 888 Level-0 table #149: 785980 bytes OK
+2025/11/13-16:58:28.332 888 Delete type=0 #146
+2025/11/13-16:58:28.559 888 Compacting 3@0 + 1@1 files
+2025/11/13-16:58:28.590 888 Generated table #150@0: 33760 keys, 2198468 bytes
+2025/11/13-16:58:28.607 888 Generated table #151@0: 1850 keys, 2114905 bytes
+2025/11/13-16:58:28.619 888 Generated table #152@0: 14136 keys, 285240 bytes
+2025/11/13-16:58:28.619 888 Compacted 3@0 + 1@1 files => 4598613 bytes
+2025/11/13-16:58:28.620 888 compacted to: files[ 0 3 3 0 0 0 0 ]
+2025/11/13-16:58:28.620 888 Delete type=2 #143
+2025/11/13-16:58:28.620 888 Delete type=2 #145
+2025/11/13-16:58:28.620 888 Delete type=2 #147
+2025/11/13-16:58:28.620 888 Delete type=2 #149
+2025/11/13-16:58:28.840 888 Expanding@1 1+3 (285240+4502897 bytes) to 3+3 (4598613+4502897 bytes)
+2025/11/13-16:58:28.840 888 Compacting 3@1 + 3@2 files
+2025/11/13-16:58:28.878 888 Generated table #153@1: 12312 keys, 2145120 bytes
+2025/11/13-16:58:28.904 888 Generated table #154@1: 2007 keys, 2040788 bytes
+2025/11/13-16:58:28.904 888 Compacted 3@1 + 3@2 files => 4185908 bytes
+2025/11/13-16:58:28.906 888 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/11/13-16:58:28.906 888 Delete type=2 #138
+2025/11/13-16:58:28.906 888 Delete type=2 #139
+2025/11/13-16:58:28.906 888 Delete type=2 #140
+2025/11/13-16:58:28.906 888 Delete type=2 #150
+2025/11/13-16:58:28.906 888 Delete type=2 #151
+2025/11/13-16:58:28.906 888 Delete type=2 #152
+2025/11/13-16:58:28.932 897 Level-0 table #156: started
+2025/11/13-16:58:28.947 897 Level-0 table #156: 1095843 bytes OK
+2025/11/13-16:58:28.950 897 Delete type=0 #148
+2025/11/13-16:58:28.952 888 Compacting 1@1 + 2@2 files
+2025/11/13-16:58:28.976 888 Generated table #157@1: 6749 keys, 961690 bytes
+2025/11/13-16:58:28.976 888 Compacted 1@1 + 2@2 files => 961690 bytes
+2025/11/13-16:58:28.977 888 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/13-16:58:28.977 888 Delete type=2 #153
+2025/11/13-16:58:28.977 888 Delete type=2 #154
+2025/11/13-16:58:28.977 888 Delete type=2 #156
+2025/11/13-16:58:29.013 888 Level-0 table #159: started
+2025/11/13-16:58:29.027 888 Level-0 table #159: 1346099 bytes OK
+2025/11/13-16:58:29.028 888 Delete type=0 #155
+2025/11/13-16:58:29.030 888 Compacting 1@1 + 1@2 files
+2025/11/13-16:58:29.056 888 Generated table #160@1: 11389 keys, 2138704 bytes
+2025/11/13-16:58:29.060 888 Generated table #161@1: 3072 keys, 152491 bytes
+2025/11/13-16:58:29.060 888 Compacted 1@1 + 1@2 files => 2291195 bytes
+2025/11/13-16:58:29.062 888 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/11/13-16:58:29.062 888 Delete type=2 #157
+2025/11/13-16:58:29.062 888 Delete type=2 #159
+2025/11/13-16:58:29.062 897 Level-0 table #163: started
+2025/11/13-16:58:29.078 897 Level-0 table #163: 1566582 bytes OK
+2025/11/13-16:58:29.081 897 Delete type=0 #158
+2025/11/13-16:58:29.083 888 Compacting 1@1 + 2@2 files
+2025/11/13-16:58:29.113 888 Generated table #164@1: 12925 keys, 2151722 bytes
+2025/11/13-16:58:29.133 888 Generated table #165@1: 6469 keys, 1697092 bytes
+2025/11/13-16:58:29.133 888 Compacted 1@1 + 2@2 files => 3848814 bytes
+2025/11/13-16:58:29.134 888 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/11/13-16:58:29.134 888 Delete type=2 #160
+2025/11/13-16:58:29.134 888 Delete type=2 #161
+2025/11/13-16:58:29.134 888 Delete type=2 #163
+2025/11/13-16:58:29.160 888 Level-0 table #167: started
+2025/11/13-16:58:29.171 888 Level-0 table #167: 658298 bytes OK
+2025/11/13-16:58:29.172 888 Delete type=0 #162
+2025/11/13-16:58:29.174 888 Compacting 1@1 + 2@2 files
+2025/11/13-16:58:29.202 888 Generated table #168@1: 19166 keys, 2158934 bytes
+2025/11/13-16:58:29.226 888 Generated table #169@1: 7461 keys, 2132192 bytes
+2025/11/13-16:58:29.231 888 Generated table #170@1: 3514 keys, 193000 bytes
+2025/11/13-16:58:29.231 888 Compacted 1@1 + 2@2 files => 4484126 bytes
+2025/11/13-16:58:29.233 888 compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/11/13-16:58:29.233 888 Delete type=2 #164
+2025/11/13-16:58:29.233 888 Delete type=2 #165
+2025/11/13-16:58:29.233 888 Delete type=2 #167

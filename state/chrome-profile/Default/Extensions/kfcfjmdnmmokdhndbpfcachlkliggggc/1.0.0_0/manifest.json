@@ -1,0 +1,22 @@
+{
+   "action": {
+   },
+   "author": "Guokai Han",
+   "background": {
+      "service_worker": "sw.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "icon/128.png",
+      "16": "icon/16.png",
+      "48": "icon/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo1uDbDO1sKj2J5Q97H9xtJzIJGaggmmanA0vBCiucBADgiB+fF9GKEcnVqAdtzLERdOEdzrUzr5wPqTqBL2np9fIjRw08X61dU5Vf3rfgeCYG3ZRGjirwbho1Sn9L5HWMP3QxU9dKh8bBKxAiUmbfP9QwLsXDvOBZ6jIdWQUTpfqex+FzXHtgdmSi/f6sXss5tGvgbdMg+NV4adk4oDArhuZp5D6zTb2B/1V1kP/ewybg351MFqsEIH46szJofUZlhTFm6u+MWBRRrmXH7ExRPxaKEpyqaYHDbqu+LOA+bLn0cjec2mmcd2H6VcdmUfclAKbWs6CccrIItFc9IzvdQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "offline_enabled": true,
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0"
+}

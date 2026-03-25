@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="player.css">
+  <title data-i18n="title"></title>
+</head>
+<body>
+  <div id="container">
+    <div id="player">
+      <video id="video"></video>
+      <div id="controls" class="d-none">
+        <div id="progress-controls">
+          <div id="progress-times">
+            <span id="time-left" class="time"></span>
+            <span id="time-right" class="time"></span>
+          </div>
+          <input type="range" id="progress" min="0" value="0" step="any">
+        </div>
+        <div id="buttons-controls">
+          <div id="buttons-left">
+            <div id="files-wrap">
+              <img src="img/folder.svg" class="btn">
+              <div id="files-container">
+                <div id="filelist"></div>
+                <div id="filelist-tools">
+                  <img src="img/playlist_play.svg" class="btn btn-dark">
+                  <img src="img/playlist_add.svg" class="btn btn-dark">
+                </div>
+              </div>
+            </div>
+            <div id="volume-wrap">
+              <img src="img/volume_up.svg" class="btn">
+              <input type="range" id="volume" min="0" max="1" value="1" step="0.01">
+            </div>
+          </div>
+          <div id="buttons-center">
+            <img id="previous" src="img/skip_previous.svg" class="btn btn-sm">
+            <img id="rewind" src="img/fast_rewind.svg" class="btn btn-sm">
+            <img src="img/play_arrow.svg" class="btn">
+            <img id="forward" src="img/fast_forward.svg" class="btn btn-sm">
+            <img id="next" src="img/skip_next.svg" class="btn btn-sm">
+          </div>
+          <div id="buttons-right">
+            <div id="settings-wrap">
+              <img src="img/settings.svg" class="btn">
+              <div id="settings">
+                <label for="seekStep" data-i18n="seekStep"></label>
+                <input type="number" id="seekStep" min="1" max="1200" step="1">
+
+                <label for="seekLongStep" data-i18n="seekLongStep"></label>
+                <input type="number" id="seekLongStep" min="1" max="1200" step="1">
+
+                <label for="volumeStep" data-i18n="volumeStep"></label>
+                <input type="number" id="volumeStep" min="1" max="50" step="1">
+
+                <label for="speedStep" data-i18n="speedStep"></label>
+                <select id="speedStep">
+                  <option value="0.1">0.1</option>
+                  <option value="0.2">0.2</option>
+                  <option value="0.25">0.25</option>
+                  <option value="0.5">0.5</option>
+                  <option value="1">1.0</option>
+                </select>
+
+                <label for="screenshotFormat" data-i18n="screenshotFormat"></label>
+                <select id="screenshotFormat">
+                  <option value="jpg">jpg</option>
+                  <option value="png">png</option>
+                </select>
+
+                <a href="shortcuts.html" target="_blank" id="shortcuts" data-i18n="shortcuts"></a>
+              </div>
+            </div>
+            <img src="img/fullscreen.svg" class="btn">
+          </div>
+        </div>
+      </div>
+      <div id="info" class="d-none"></div>
+      <div id="lt-info" class="d-none time-info"></div>
+      <div id="rt-info" class="d-none time-info"></div>
+      <div id="error-info" class="d-none"></div>
+    </div>
+  </div>
+  <div class="dropzone d-none" data-i18n="dropzone"></div>
+  <div class="d-none">
+    <input type="file" id="file" accept="video/*,audio/*,.mp4,.mp3,.mkv,.webm,.3gp,.avi,.mpeg,.mpg,.ogg,.wmv,.wav,.mov" multiple>
+  </div>
+  <script type="text/javascript" src="player.js"></script>
+  <script type="text/javascript" src="player.ext.js"></script>
+</body>
+</html>

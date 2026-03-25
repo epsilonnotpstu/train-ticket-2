@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page Screenshot</title>
+    <link type="text/css" rel="stylesheet" href="options.css">
+  </head>
+  <body>
+    <div class="logo"></div>
+    <div class="content">
+      <table>
+        <tr>
+          <td class="title">
+            A. Adjust screenshot quality
+          </td>
+          <td>
+            <div class="name">Screenshot quality (percent)</div>
+            <div class="value">
+              <input data-pref="screenshot.quality" type="number" min="0">
+            </div>
+            <p class="note">Quality is a number between 0 and 100 (lowest to highest).</p>
+            <p class="note">Please note, quality is only applied for JPEG format.</p>
+            <p class="note">For PNG, quality is determined automatically.</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="title">
+            B. Adjust screenshot delay
+          </td>
+          <td>
+            <div class="name">Screenshot delay (milliseconds)</div>
+            <div class="value">
+              <input data-pref="screenshot.delay" type="number" min="500">
+            </div>
+            <p class="note">When taking multiple screenshots, wait for few milliseconds (delay) between each screenshot.</p>
+            <p class="note">Delay is a number between 500 and 3000 milliseconds (lowest to highest).</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="title">
+            C. Maximum screenshot pages
+          </td>
+          <td>
+            <div class="name">Maximum number of pages to capture the screenshot</div>
+            <div class="value">
+              <input data-pref="screenshot.max" type="number" min="1" max="100">
+            </div>
+            <p class="note">For webpages with infinite scroll, the extension captures screenshots up to this max value.</p>
+            <p class="note">The default max value is 10 pages. You can increase or decrease this value.</p>
+            <p class="note">Note: Values greater than 20 pages may result in memory errors in your browser.</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="title">
+            D. Choose screenshot format
+          </td>
+          <td>
+            <div class="name">Screenshot format</div>
+            <div class="value">
+              <select data-pref="screenshot.format">
+                <option value="png">PNG</option>
+                <option value="jpeg">JPEG</option>
+              </select>
+            </div>
+            <p class="note">Default format is JPEG. If you choose PNG, quality is determined automatically.</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="title">
+            E. Screenshot for all tabs
+          </td>
+          <td>
+            <div class="name">Allow screenshot for all active and inactive tabs</div>
+            <div class="value">
+              <input data-pref="screenshot.permission" type="checkbox">
+            </div>
+            <p class="note">When you mark this option, the extension takes a screenshot from all open tabs (either active or inactive) if you click on the toolbar button.</p>
+            <p class="note">Please note that when you enable this option, the extension will ask for broad host permission.</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="title">
+            F. Open in new tab
+          </td>
+          <td>
+            <div class="name">Open the screenshot in a new tab</div>
+            <div class="value">
+              <input data-pref="screenshot.open" type="checkbox">
+            </div>
+            <p class="note">Some websites do not allow downloading screenshots. Mark this option to open the screenshot in a new tab instead.</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- -->
+    <script type="text/javascript" src="options.js"></script>
+  </body>
+</html>

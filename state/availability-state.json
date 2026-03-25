@@ -1,0 +1,17 @@
+{
+  "26-Mar-2026__Dhaka__Feni__S_CHAIR": {
+    "availableCount": 0,
+    "checkedAt": "2026-03-25T16:38:25.313Z",
+    "url": "https://eticket.railway.gov.bd/booking/train/search?fromcity=Dhaka&tocity=Feni&doj=26-Mar-2026&class=S_CHAIR"
+  },
+  "26-Mar-2026__Dhaka__Chattogram__S_CHAIR": {
+    "availableCount": 0,
+    "checkedAt": "2026-03-25T17:31:43.762Z",
+    "url": "https://eticket.railway.gov.bd/booking/train/search?fromcity=Dhaka&tocity=Chattogram&doj=26-Mar-2026&class=S_CHAIR"
+  },
+  "31-Mar-2026__Dhaka__Chattogram__S_CHAIR": {
+    "availableCount": 21,
+    "checkedAt": "2026-03-25T17:26:43.274Z",
+    "url": "https://eticket.railway.gov.bd/booking/train/search?fromcity=Dhaka&tocity=Chattogram&doj=31-Mar-2026&class=S_CHAIR"
+  }
+}
