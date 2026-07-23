@@ -26,10 +26,8 @@ function numberFromEnv(name, fallback) {
 
 const rootDir = path.resolve(__dirname, "..");
 const stateDir = path.join(rootDir, "state");
-const loginProfileDir = path.resolve(rootDir, process.env.LOGIN_PROFILE_DIR || "state/runtime-profile");
 
 fs.mkdirSync(stateDir, { recursive: true });
-fs.mkdirSync(loginProfileDir, { recursive: true });
 
 const config = {
   telegramBotToken: required("TELEGRAM_BOT_TOKEN"),
@@ -44,10 +42,9 @@ const config = {
   seatClass: process.env.SEAT_CLASS || "S_CHAIR",
   pollIntervalSeconds: numberFromEnv("POLL_INTERVAL_SECONDS", 25),
   requestSpacingSeconds: numberFromEnv("REQUEST_SPACING_SECONDS", 8),
-  headless: (process.env.HEADLESS || "true").toLowerCase() === "true",
   browserExecutablePath: process.env.BROWSER_EXECUTABLE_PATH || "/usr/bin/google-chrome-stable",
-  loginProfileDir,
-  cdpPort: numberFromEnv("CDP_PORT", 9222),
+  railwayUsername: required("RAILWAY_USERNAME"),
+  railwayPassword: required("RAILWAY_PASSWORD"),
   stateFilePath: path.join(stateDir, "availability-state.json"),
 };
 

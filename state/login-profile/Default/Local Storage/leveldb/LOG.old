@@ -1,0 +1,8 @@
+2026/07/24-00:05:25.080 5 Reusing MANIFEST /home/afridi/Documents/train ticket 2/state/login-profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/07/24-00:05:25.085 5 Recovering log #4
+2026/07/24-00:05:25.085 5 Level-0 table #7: started
+2026/07/24-00:05:25.147 5 Level-0 table #7: 15769 bytes OK
+2026/07/24-00:05:25.150 5 Delete type=0 #4
+2026/07/24-00:06:25.157 7 Level-0 table #10: started
+2026/07/24-00:06:25.161 7 Level-0 table #10: 15497 bytes OK
+2026/07/24-00:06:25.164 7 Delete type=0 #8

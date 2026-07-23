@@ -1,9 +1,8 @@
 const fs = require("fs");
 const { config } = require("./config");
+const { searchTrips } = require("./api-client");
 const { sendTelegramMessage } = require("./telegram");
-const { sleep, log, escapeRegExp } = require("./helpers");
-const RESULT_WAIT_TIMEOUT_MS = 45000;
-const RESULT_WAIT_STEP_MS = 2000;
+const { sleep, log } = require("./helpers");
 
 function buildSearchUrl(destination) {
   const params = new URLSearchParams({
@@ -32,135 +31,30 @@ function saveState(state) {
   fs.writeFileSync(config.stateFilePath, `${JSON.stringify(state, null, 2)}\n`, "utf8");
 }
 
-function extractTrainSection(text, trainName) {
-  const normalized = text.replace(/\r/g, "");
-  const escapedTrain = escapeRegExp(trainName);
-  const nextTrainPattern = /\n[A-Z][A-Z0-9_ ]+\(\d+\)/g;
-  const startMatch = normalized.match(new RegExp(escapedTrain, "i"));
-  if (!startMatch || startMatch.index === undefined) {
-    return null;
+function extractAvailability(trains, destination) {
+  const wantedTrain = config.trainName.trim().toLowerCase();
+  const train = trains.find((entry) => (entry.trip_number || "").trim().toLowerCase() === wantedTrain);
+
+  if (!train) {
+    log(`${config.trainName} is not listed in the API results for ${destination}; treating as 0 available`);
+    return { availableCount: 0, onlineCount: 0, offlineCount: 0, fare: null };
   }
 
-  const fromStart = normalized.slice(startMatch.index);
-  const nextMatch = nextTrainPattern.exec(fromStart.slice(trainName.length));
-  if (!nextMatch || nextMatch.index === undefined) {
-    return fromStart;
+  const seatType = (train.seat_types || []).find((entry) => entry.type === config.seatClass);
+  if (!seatType) {
+    log(`${config.seatClass} is not offered on ${config.trainName} for ${destination}; treating as 0 available`);
+    return { availableCount: 0, onlineCount: 0, offlineCount: 0, fare: null };
   }
 
-  return fromStart.slice(0, trainName.length + nextMatch.index);
-}
-
-function extractClassSnippet(sectionText, seatClass) {
-  const classNames = ["S_CHAIR", "SNIGDHA", "F_BERTH", "AC_B", "AC_S", "F_SEAT", "F_CHAIR"];
-  const startIndex = sectionText.indexOf(seatClass);
-  if (startIndex === -1) {
-    return null;
-  }
-
-  let endIndex = sectionText.length;
-  for (const candidate of classNames) {
-    if (candidate === seatClass) {
-      continue;
-    }
-    const nextIndex = sectionText.indexOf(candidate, startIndex + seatClass.length);
-    if (nextIndex !== -1) {
-      endIndex = Math.min(endIndex, nextIndex);
-    }
-  }
-
-  return sectionText.slice(startIndex, endIndex);
-}
-
-function parseAvailabilityCount(snippet) {
-  const lines = snippet
-    .split("\n")
-    .map((line) => line.trim())
-    .filter(Boolean);
-
-  const availableLabelIndex = lines.findIndex((line) => /Available Tickets/i.test(line));
-  if (availableLabelIndex !== -1) {
-    for (let index = availableLabelIndex + 1; index < lines.length; index += 1) {
-      if (/^\d+$/.test(lines[index])) {
-        return Number(lines[index]);
-      }
-    }
-  }
-
-  const numbers = lines.filter((line) => /^\d+$/.test(line)).map(Number);
-  if (numbers.length > 0) {
-    return numbers[numbers.length - 1];
-  }
-
-  return null;
-}
-
-async function parseAvailabilityFromPage(page, destination) {
-  const bodyText = await page.locator("body").innerText();
-  const loginRedirected = page.url().includes("/login") || /LOGIN\s+OR\s+REGISTER/i.test(bodyText);
-  if (loginRedirected) {
-    throw new Error(
-      "Railway session not found. Run `npm run setup-login`, log in once in the opened browser, then start the watcher again."
-    );
-  }
-
-  if (/No Trains Available/i.test(bodyText)) {
-    return {
-      destination,
-      availableCount: 0,
-      sectionText: null,
-      url: page.url(),
-    };
-  }
-
-  const sectionText = extractTrainSection(bodyText, config.trainName);
-  if (!sectionText) {
-    throw new Error(`Could not find ${config.trainName} on the search results page for ${destination}.`);
-  }
-
-  const classSnippet = extractClassSnippet(sectionText, config.seatClass);
-  if (!classSnippet) {
-    throw new Error(`Could not find seat class ${config.seatClass} inside ${config.trainName} for ${destination}.`);
-  }
-
-  const availableCount = parseAvailabilityCount(classSnippet);
-  if (availableCount === null) {
-    throw new Error(`Could not parse availability count for ${config.trainName} ${config.seatClass} to ${destination}.`);
-  }
+  const online = Number(seatType.seat_counts && seatType.seat_counts.online) || 0;
+  const offline = Number(seatType.seat_counts && seatType.seat_counts.offline) || 0;
 
   return {
-    destination,
-    availableCount,
-    sectionText,
-    url: page.url(),
+    availableCount: online + offline,
+    onlineCount: online,
+    offlineCount: offline,
+    fare: seatType.fare || null,
   };
-}
-
-async function waitForSearchResults(page, destination) {
-  const startedAt = Date.now();
-  let lastBodyText = "";
-
-  while (Date.now() - startedAt < RESULT_WAIT_TIMEOUT_MS) {
-    lastBodyText = await page.locator("body").innerText();
-
-    if (page.url().includes("/login") || /LOGIN\s+OR\s+REGISTER/i.test(lastBodyText)) {
-      return;
-    }
-
-    if (/No Trains Available/i.test(lastBodyText)) {
-      return;
-    }
-
-    if (extractTrainSection(lastBodyText, config.trainName)) {
-      return;
-    }
-
-    await sleep(RESULT_WAIT_STEP_MS);
-  }
-
-  const preview = lastBodyText.replace(/\s+/g, " ").trim().slice(0, 300);
-  throw new Error(
-    `Timed out waiting for results for ${destination}. Last page text preview: ${preview || "empty page"}`
-  );
 }
 
 function shouldNotify(previous, current) {
@@ -176,25 +70,30 @@ function shouldNotify(previous, current) {
 }
 
 function formatNotification(result) {
-  return [
+  const lines = [
     "Train ticket available!",
     `Train: ${config.trainName}`,
     `Class: ${config.seatClass}`,
     `Route: ${config.fromCity} -> ${result.destination}`,
     `Date: ${config.journeyDate}`,
-    `Available: ${result.availableCount}`,
-    `Link: ${buildSearchUrl(result.destination)}`,
-  ].join("\n");
+    `Available: ${result.availableCount} (online ${result.onlineCount} + counter ${result.offlineCount})`,
+  ];
+
+  if (result.fare) {
+    lines.push(`Fare: ${result.fare} BDT`);
+  }
+
+  lines.push(`Link: ${buildSearchUrl(result.destination)}`);
+  return lines.join("\n");
 }
 
-async function checkDestination(page, destination, state) {
-  const url = buildSearchUrl(destination);
+async function checkDestination(destination, state) {
   log(`Checking ${config.trainName} ${config.seatClass} for ${config.fromCity} -> ${destination}`);
 
-  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 120000 });
-  await waitForSearchResults(page, destination);
+  const trains = await searchTrips(destination);
+  const availability = extractAvailability(trains, destination);
+  const result = { destination, ...availability };
 
-  const result = await parseAvailabilityFromPage(page, destination);
   const stateKey = `${config.journeyDate}__${config.fromCity}__${destination}__${config.seatClass}`;
   const previous = state[stateKey];
 
@@ -208,20 +107,19 @@ async function checkDestination(page, destination, state) {
   state[stateKey] = {
     availableCount: result.availableCount,
     checkedAt: new Date().toISOString(),
-    url,
+    url: buildSearchUrl(destination),
   };
 
   saveState(state);
   return result;
 }
 
-async function runChecksOnce(context) {
+async function runChecksOnce() {
   const state = loadState();
-  const page = context.pages()[0] || (await context.newPage());
   const results = [];
 
   for (const [index, destination] of config.toCities.entries()) {
-    const result = await checkDestination(page, destination, state);
+    const result = await checkDestination(destination, state);
     results.push(result);
 
     if (index < config.toCities.length - 1) {

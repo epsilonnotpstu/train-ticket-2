@@ -4,10 +4,9 @@
   "description": "Bangladesh Railway ticket availability watcher for TURNA (742) S_CHAIR.",
   "main": "src/index.js",
   "scripts": {
-    "start-browser": "node src/start-browser.js",
-    "setup-login": "node src/setup-login.js",
     "check-once": "node src/index.js --once",
     "watch": "node src/index.js",
+    "relogin": "node src/relogin.js",
     "test-telegram": "node src/test-telegram.js"
   },
   "keywords": [],

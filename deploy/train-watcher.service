@@ -1,0 +1,17 @@
+[Unit]
+Description=BD Railway ticket availability watcher
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/train-ticket-2
+ExecStart=/usr/bin/node src/index.js
+Restart=always
+RestartSec=30
+# Chromium during relogin needs a writable home
+Environment=HOME=/home/pi
+
+[Install]
+WantedBy=multi-user.target

@@ -13,5 +13,15 @@
     "availableCount": 21,
     "checkedAt": "2026-03-25T17:26:43.274Z",
     "url": "https://eticket.railway.gov.bd/booking/train/search?fromcity=Dhaka&tocity=Chattogram&doj=31-Mar-2026&class=S_CHAIR"
+  },
+  "27-Jul-2026__Dhaka__Cox's Bazar__S_CHAIR": {
+    "availableCount": 0,
+    "checkedAt": "2026-07-23T18:18:34.236Z",
+    "url": "https://eticket.railway.gov.bd/booking/train/search?fromcity=Dhaka&tocity=Cox%27s+Bazar&doj=27-Jul-2026&class=S_CHAIR"
+  },
+  "27-Jul-2026__Dhaka__Chattogram__S_CHAIR": {
+    "availableCount": 297,
+    "checkedAt": "2026-07-23T18:08:46.484Z",
+    "url": "https://eticket.railway.gov.bd/booking/train/search?fromcity=Dhaka&tocity=Chattogram&doj=27-Jul-2026&class=S_CHAIR"
   }
 }
